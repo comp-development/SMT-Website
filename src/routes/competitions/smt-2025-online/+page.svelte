@@ -449,8 +449,8 @@
     </ul>
 
     <p>
-      Affected participants will be contacted by Wednesday, April 16, and must
-      submit satisfactory recordings within 48 hours.
+      Affected participants will be contacted, and will have an opportunity to 
+      submit satisfactory recordings. 
     </p>
 
     <p>
