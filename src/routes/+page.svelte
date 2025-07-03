@@ -117,7 +117,7 @@
       />
       <p class="other-text">
         Stanford Math Tournament is run entirely by Stanford students. We are
-        one of the largest university-run math contests, with over 3000
+        one of the largest university-run math contests, with over 2000
         participants globally in 2025. We are proudly supported by the Stanford
         Undergraduate Mathematics Organization (SUMO) and the Stanford
         Department of Mathematics.
