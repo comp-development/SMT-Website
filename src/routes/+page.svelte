@@ -85,10 +85,11 @@
         globally.
       </p>
       <p class="descript">
-        <i>Applications for SMT 2025 are now open!</i>
+        <i>Applications for SMT 2026 are not yet open.</i>
       </p>
+      <!--change to something better later -->
       <HeaderButton
-        text="Apply for SMT 2025!"
+        text="SMT 2025!" 
         arrowDirection="down"
         onClick={() => scrollToElem(tournElem)}
         isLink={false}
@@ -168,7 +169,7 @@
       <h2>SMT</h2>
       <p>
         The Stanford Math Tournament (SMT) is a contest organized by Stanford
-        students, held on Stanford’s campus. In 2025, SMT will be held on <b
+        students, held on Stanford’s campus. In 2025, SMT was held on <b
           >April 11-12, 2025</b
         > for 800 high school contestants from around the United States.
       </p>
