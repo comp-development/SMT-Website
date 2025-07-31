@@ -1,0 +1,34 @@
+[
+  {
+    "question": "How many students may be on a team?",
+    "answer": "Teams must consist of 4 members. Teams with less or more students will not be accepted."
+  },
+  {
+    "question": "Can I participate in SM3 remotely?",
+    "answer": "No, SM3 will be entirely in-person on October 25th, 2025."
+  },
+  {
+    "question": "Do students on the same team have to be from the same school?",
+    "answer": "INSERT ANSWER HERE"
+  },
+  {
+    "question": "What schools or organizations can participate in SM3?",
+    "answer": "SM3 2025 will be open to all domestic students from US-based schools."
+  },
+  {
+    "question": "Are calculators allowed?",
+    "answer": "No. Calculators are not allowed on any portion of the tests. Check the SMT rules for information on permitted items."
+  },
+  {
+    "question": "What topics may appear on the tests? How hard are the tests?",
+    "answer": "See the mathematical expectations document for guidelines on what topics may appear on each test. It is also advisable to look at the test from previous years in order to get a sense of the typical style and difficulty of SMT tests."
+  },
+  {
+    "question": "Do we need to have a teacher or coach attend SM3 in person?",
+    "answer": "Yes, you must have at least one authorized adult chaperone present per team who is responsible for the team during the event."
+  },
+  {
+    "question": "Can I use the problems from previous SM3 tests listed below in my classroom/book/etc?",
+    "answer": "Yes! Feel free to use any officially released problems, provided you cite us in the format 'Stanford Middle School Math Meet [Year] [Round] [Problem #]'"
+  }
+]

@@ -35,17 +35,17 @@
             hasSubPages: false,
         },*/
     {
-      path: '/competitions/smt-2025',
-      text: 'SMT 2025',
+      path: '/competitions/smt-2026',
+      text: 'SMT 2026',
       hasSubPages: true,
       subPages: [
-        { path: '/competitions/smt-2025', text: 'SMT 2025 @ Stanford' },
+        { path: '/competitions/smt-2026', text: 'SMT 2026 @ Stanford' },
         {
-          path: '/competitions/smt-2025-online',
-          text: 'SMT 2025 Online',
+          path: '/competitions/smt-2026-online',
+          text: 'SMT 2026 Online',
         },
       ],
-    },
+    }, {path: '/sm3', text: 'Middle School (SM3)', hasSubPages: false}, {path:'/puzzlehunt', text: 'Puzzlehunt', hasSubPages: false},
     { path: '/our-team', text: 'Our Team', hasSubPages: false },
     { path: '/rules', text: 'Rules', hasSubPages: false },
     { path: '/partners', text: 'Partners', hasSubPages: false },
