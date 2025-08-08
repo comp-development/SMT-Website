@@ -36,24 +36,27 @@
 <div class="section-wrapper col-sm" style="margin-top: 1vh">
   <PanelBox>
     <div class="section-item">
+      <p><i><strong>This page is still a work in progress.</strong> Soon, an archive of all of our past puzzles will be added.</i></p>
       <p>
-        SMT has a puzzlehunt every year on F^3 before the high school tournament and in the afternoon of the middle school event. 
+        SMT has Puzzlehunt every year on the Friday before SMT and in the afternoon of SM3. The SMT Puzzlehunt is also run 
+        during Stanford Admit Weekend.
       </p>
+      <p>Linked below is the 2025 SMT Puzzlehunt. It is hosted on myus. The answer to the first puzzle is "beach"</p>
       <HeaderButton
-        text="Test Information"
-        href={testInfo}
+        text="2025 SMT Puzzlehunt"
+        href={"https://www.puzzlehuntmy.us/hunt/16-SMT25"}
         isSmall
         centered
         newTab
       />
     </div>
-    <div class="section-item">
+    <!-- <div class="section-item">
       <p>
         The specific test rules, parameters (i.e. duration), and scoring can be
         found in the document below. It further outlines total scoring for the
         tournament, as well as awards and protests.
-      </p>
-      <HeaderButton
+      </p> -->
+      <!-- <HeaderButton
         text="Scoring"
         href={rulesScoring}
         isSmall
@@ -80,7 +83,7 @@
         <HeaderButton text="Answer Format" href={answerformat} isSmall newTab />
         <HeaderButton text="Notation" href={notation} isSmall newTab />
       </div>
-    </div>
+    </div> -->
   </PanelBox>
 </div>
 

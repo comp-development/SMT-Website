@@ -9,7 +9,7 @@
   },
   {
     "question": "Do students on the same team have to be from the same school?",
-    "answer": "INSERT ANSWER HERE"
+    "answer": "It is recommended that students form schools teams but not required."
   },
   {
     "question": "What schools or organizations can participate in SM3?",
@@ -21,7 +21,7 @@
   },
   {
     "question": "What topics may appear on the tests? How hard are the tests?",
-    "answer": "See the mathematical expectations document for guidelines on what topics may appear on each test. It is also advisable to look at the test from previous years in order to get a sense of the typical style and difficulty of SMT tests."
+    "answer": "Tests will primarily cover topics taught through standard seventh grade math curricula. The hardest problems will be similar in difficulty to MATHCOUNTS state-level problems."
   },
   {
     "question": "Do we need to have a teacher or coach attend SM3 in person?",
@@ -29,6 +29,6 @@
   },
   {
     "question": "Can I use the problems from previous SM3 tests listed below in my classroom/book/etc?",
-    "answer": "Yes! Feel free to use any officially released problems, provided you cite us in the format 'Stanford Middle School Math Meet [Year] [Round] [Problem #]'"
+    "answer": "Yes! Feel free to use any officially released problems, provided you cite us in the format 'Stanford Mini Math Meet [Year] [Round] [Problem #]'"
   }
 ]

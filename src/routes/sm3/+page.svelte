@@ -35,9 +35,9 @@
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>10/25<br><i style='font-size: 80%'>Tournament Day</i>",
       '10:45 AM',
-      'Relay Event / Activities',
-      'Relay Event / Activities',
-      'Relay Event / Activities',
+      'Sprint Round / Activities',
+      'Sprint Round / Activities',
+      'Sprint Round / Activities',
       'Scoreboard Viewing / Unstructured Time',
     ],
   
@@ -138,7 +138,7 @@
 
 <br /><br />
 <Heading
-  text="Stanford Middle School Math Meet (SM3) 2025"
+  text="Stanford Mini Math Meet (SM3) 2025"
   size={4}
   textColor="var(--heading-color)"
 />
@@ -186,14 +186,14 @@
       <h4>Closed Registration</h4>
       <p>
         We are currently in a
-        <b>closed registration</b> phase. During this time, signups are limited to Bay Area midde schools
-        from areas that are <b>low income </b>or <b>historically underepresented in mathematics</b>. If you believe your school should register in this 
+        <b>closed registration</b> phase. Because of SM3's purpose, during this time, signups are limited to Bay Area midde schools
+        from areas that are <b>low income </b>or <b>historically underrepresented in mathematics</b>. If you believe your school should register in this 
         phase, please reach out to us at <a href="mailto:stanfordmathtournament@gmail.com">stanfordmathtournament@gmail.com</a>
       </p>
       <h4>Open Registration</h4>
       <p>
         If there are available spots after closed registration concludes, we will begin open registration on 
-        <b>Monday, September 15th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list. 
+        <b>Thursday, September 25th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list. 
         It will be first-come, first-serve. There will also be a waitlist.  
       </p>
       <p>
@@ -234,13 +234,13 @@
              /> -->
   </TimelineElement>
   <TimelineElement>
-    <strong>September 15th, 2025:</strong> 10am PST: Open Registration Begins
+    <strong>September 25th, 2025:</strong> 10am PST: Open Registration Begins
   </TimelineElement>
   <TimelineElement>
-    <strong>September 18th, 2025:</strong> Notification of Open Registration Status
+    <strong>September 30th, 2025:</strong> Notification of Open Registration Status
   </TimelineElement>
   <TimelineElement>
-    <strong>October 3rd, 2025:</strong> Deadline for teams to finish registration & confirm
+    <strong>October 13rd, 2025:</strong> Deadline for teams to finish registration & confirm
     their spots
   </TimelineElement>
   <TimelineElement>
@@ -265,40 +265,38 @@
 </div>
 <br />
 
-<Heading text="Activity Information" size={2.5} />
+<Heading text="Event Information" size={2.5} />
 
 <div class="section-wrapper">
   <PanelBox>
-    <FormattedTable data={testData} colStyles={testStyles} />
+    <!-- <FormattedTable data={testData} colStyles={testStyles} /> -->
     <p>
-      The <strong>Power Round</strong> is a 80-minute exam focused on proof-writing.
-      The content of the test focuses on a single subject matter that is usually
-      significantly different from traditional competitive math problems.
+      Students at SMT will participate in <strong>three different events</strong>. All students will the 
+      Sprint Round and Puzzlehunt. After the Sprint Round and before lunch, students will be able to choose another activity. This
+      activity will be chosen during signup and cannot be changed afterwards. 
     </p>
     <p>
-      The <strong>Team Round</strong> is a 50-minute exam consisting of 15 short
-      answer questions.
+      The <strong>Sprint Round</strong> is a fast paced 30 minute round consisting of a total of 40 questions where students 
+      race through the problems utilizing various power ups sprinkled throughout. Teams start out with five questions 
+      and for each correct answer they hand in, they get another question. Teams get three attempts for each question. 
+      Once the 3 attempts are used up, the team will automatically receive another problem and cannot resubmit again. 
+      They will also receive randomized power ups that will be explained during the competition to use. 
+      Each correct answer defaults to 1 point, and  power ups may have the ability to change this.
     </p>
     <p>
-      The <strong>General Test</strong> is a 110-minute individual exam
-      consisting of 25 short answer questions that is designed for students that
-      have less specialized mathematical background.
-      <br /><i>The General Test is worth 60% of the Subject Tests</i>.
+      <strong>Puzzlehunt</strong> will be a series of puzzles related to SM3's theme. Teams will race outdoors to solve a variety of
+      unique puzzles across Stanford's campus. If you've never done a puzzle hunt before, check out <a href="https://yukihunt.club">yukihunt.club </a>
+      for a beginner-friendly introduction! SMT's guide to common puzzlehunting ciphers is attached 
+      <a href="https://docs.google.com/document/d/1DAc4izjhWIMqdf5GQ4g5XsinhTxAu5eCiwXJ1dq33Ww/edit?usp=sharing">here</a>.
     </p>
 
     <p>
-      The <strong>Subject Tests</strong> are two 50-minute individual exams
-      consisting of 10 short answer questions. The subjects offered are
-      <strong>
-        Algebra, Calculus, Discrete (Number Theory & Combinatorics), and
-        Geometry
-      </strong>
+      <strong>Additional Activities: Announced Soon!</strong> <br>
+      After the Sprint Round ends and before lunch, students will paticipate in one more activity of their choosing. Activities 
+      will be selected by teams when they sign up. Potential activities include origami or an estimathon.
     </p>
     <p>
-      The <strong>Guts Round</strong> is an 80 minute live-scored team exam consisting
-      of 9 series of 3 questions each, whereby teams must submit answers to a previous
-      round in order to gain access to the next. Subsequent rounds are both harder
-      and worth more points than previous rounds.
+      
     </p>
   </PanelBox>
 </div>
