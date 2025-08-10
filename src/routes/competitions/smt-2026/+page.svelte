@@ -14,34 +14,6 @@
 
   let windowWidth
 
-  // const registrationData = [
-  //   ['Step', 'Coaches', 'Students'],
-  //   [
-  //     '1',
-  //     "Create a <b>Coach</b> account on <a href='https://contestdojo.com' target='_blank'>ContestDojo</a>.",
-  //     "Create a <b>Student</b> account on <a href='https://contestdojo.com' target='_blank'>ContestDojo</a>.",
-  //   ],
-  //   [
-  //     '2',
-  //     'Buy the seats for your participating students on Eventbrite (link in acceptance email). <b>Make sure to use the same organization name and email as on ContestDojo!</b> Seats may take 1-2 days to update in ContestDojo following payment.',
-  //     'Arrange payment with your coach.',
-  //   ],
-  //   [
-  //     '3',
-  //     'Add your students to the ContestDojo platform',
-  //     'Students <b>join their organization</b> on ContestDojo by email or join code.',
-  //   ],
-  //   [
-  //     '4',
-  //     'Once they have joined, organize your students into teams.',
-  //     'Parents of students will need to <b>fill out waivers</b> sent to them by Stanford. This may take up to 3 days from registering to send, and another 3 days after submission to update on ContestDojo. <b>All waivers must be submitted by 4/6/2024</b>.',
-  //   ],
-  //   [
-  //     '5',
-  //     "You're registered! More steps to follow via email closer to contest day.",
-  //     "You're registered! More steps to follow via email closer to contest day.",
-  //   ],
-  // ]
   const registrationStyles = ['width: auto;', 'width: auto;', 'width: auto;']
 
   const scheduleData = [
@@ -273,14 +245,14 @@
 </script>
 
 <svelte:head>
-  <title>SMT 2025</title>
+  <title>SMT 2026</title>
 </svelte:head>
 
 <svelte:window bind:innerWidth={windowWidth} />
 
 <br /><br />
 <Heading
-  text="Stanford Math Tournament 202"
+  text="Stanford Math Tournament 2026"
   size={4}
   textColor="var(--heading-color)"
 />
@@ -289,7 +261,7 @@
   <PanelBox>
     <div style="padding: 10px;">
       <p>
-        <strong>DATE:</strong> April 11-12, 2025 <br />
+        <strong>DATE:</strong> April 10-11, 2025 <br />
         <strong>LOCATION:</strong> Stanford University <br />
         <strong>WHO:</strong> High School students residing within the United
         States <br />
@@ -299,10 +271,10 @@
 
         <br />
         <i
-          >SMT 2025 is only for US high school students. If this doesn't apply
+          >SMT 2026 is only for US high school students. If this doesn't apply
           to you, we encourage you to participate in <Link
-            url="/competitions/smt-2025-online"
-            text="SMT 2025 Online"
+            url="/competitions/smt-2026-online"
+            text="SMT 2026 Online"
           /> instead.
         </i> <br />
         <br />
@@ -332,12 +304,12 @@
         <b>schools, local mathematical organizations, and individuals</b>
         from the United States. Students who are unable to participate in-person
         are invited to register for our
-        <a href="/competitions/smt-2025-online">online tournament</a>.
+        <a href="/competitions/smt-2026-online">online tournament</a>.
       </p>
 
       <h4>Schools</h4>
       <p>
-        Students are highly encouraged to participate in SMT 2025 as part of
+        Students are highly encouraged to participate in SMT 2026 as part of
         their <b>school team</b>. Students whose school is sending a team to SMT
         must attend with their school. Homeschooled students are considered to
         be a part of their local public school.
@@ -388,7 +360,7 @@
           made by SMT are final and non-negotiable.</i
         >
       </p>
-      <p style="font-size: 0.8em;"><i>Last updated on 12/7/2024</i></p>
+      <p style="font-size: 0.8em;"><i>Last updated on 8/1/2025</i></p>
     </div>
   </PanelBox>
 </div>
