@@ -188,7 +188,7 @@
         We are currently in a
         <b>closed registration</b> phase. Because of SM3's purpose, during this time, signups are limited to Bay Area midde schools
         from areas that are <b>low income </b>or <b>historically underrepresented in mathematics</b>. If you believe your school should register in this 
-        phase, please reach out to us at <a href="mailto:stanford.math.tournament@gmail.com">stanford.math.tournament@gmail.com</a>
+        phase, please reach out to us at <a href="mailto:stanfordmathtournament@gmail.com">stanfordmathtournament@gmail.com</a>
       </p>
       <h4>Open Registration</h4>
       <p>
