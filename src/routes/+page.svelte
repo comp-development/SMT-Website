@@ -67,7 +67,7 @@
       alt="Header Background"
       class="header-background-1"
     />
-    <!--<img src="Header-Background.svg" alt="Header Background" class="header-background-2">-->
+    <!-- <img src="Header-Background.svg" alt="Header Background" class="header-background-2"> -->
     <div class="minidiv">
       <Heading
         className="glow"
@@ -89,7 +89,7 @@
       </p>
       <!--change to something better later -->
       <HeaderButton
-        text="SMT 2025!" 
+        text="SMT 2026!" 
         arrowDirection="down"
         onClick={() => scrollToElem(tournElem)}
         isLink={false}
@@ -122,17 +122,6 @@
         Undergraduate Mathematics Organization (SUMO) and the Stanford
         Department of Mathematics.
       </p>
-      <!--
-            <p class="other-text">SMT 2023 will be held April 8th, 2023.</p>
-            <HeaderButton
-                text="Register for SMT 2023!"
-                arrowDirection="down"
-                onClick={() => scrollToElem(tournElem)}
-                isLink={false}
-            />
-            <br />
-            -->
-      <!--<button class="sign-up" on:click={() => {show = !show;}}><i class="fa-regular fa-newspaper"></i> Sign Up for our Newsletter</button>-->
     </div>
     <div style="margin-right: 30px; flex-direction: column">
       <img

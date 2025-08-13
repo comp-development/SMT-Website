@@ -261,7 +261,7 @@
   <PanelBox>
     <div style="padding: 10px;">
       <p>
-        <strong>DATE:</strong> April 10-11, 2025 <br />
+        <strong>DATE:</strong> April 10-11, 2026 <br />
         <strong>LOCATION:</strong> Stanford University <br />
         <strong>WHO:</strong> High School students residing within the United
         States <br />
