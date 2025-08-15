@@ -257,7 +257,7 @@
         <strong>WHO:</strong> Students in high school and below, from anywhere
         in the world.* <br />
         <strong>TEAM SIZE:</strong> 6-8 <br />
-        <strong>COST:</strong> $15-$25 per student** (see timeline below) <br />
+        <strong>COST:</strong> $20-$30 per student** (see timeline below) <br />
         <br />
         *The team formation rules for our in-person tournament do not apply here.
         Any students in high school or below can register with any team, or as an
