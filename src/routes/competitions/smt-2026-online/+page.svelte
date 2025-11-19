@@ -10,7 +10,7 @@
   import TimelineElement from '$lib/components/timeline/TimelineElement.svelte'
   import HeaderButton from '$lib/components/HeaderButton.svelte'
   import QA from '$lib/components/FAQitem.svelte'
-  import Questions from '$lib/FAQ-smt-2025-online.json'
+  import Questions from '$lib/FAQ-smt-2026-online.json'
 
   let windowWidth
 
@@ -263,14 +263,18 @@
         Any students in high school or below can register with any team, or as an
         individual! <br />
         **Eventbrite charges around $2.00 per student in service fees.
+        <br />
+        <br />
+        <b>Applications for SMT 2026 Online are not yet open.</b>
       </p>
-      <HeaderButton
-        text="Registration Coming Soon!"
-        href="#"
+      <!-- Uncomment this once applications are open -->
+      <!-- <HeaderButton
+        text="Apply for SMT"
+        href={formLink}
+        newTab="true"
         isSmall
         centered
-        disabled
-      />
+      /> -->
     </div>
   </PanelBox>
 </div>
@@ -308,7 +312,7 @@
 
 <Timeline width="60%">
   <TimelineElement>
-    <strong>Late February:</strong> Registration opens on
+    <strong>Late January:</strong> Registration opens on
     <a href={formLink} target="_blank">COMP.MT</a>
     <!-- <br /> -->
     <!-- <Link
@@ -362,7 +366,9 @@
   </FlexBox>
 </div>
 
-<Heading text="Test Information" size={2.5} />
+
+<!-- This is OLD TEST INFORMATION, format for 2026 test information is different, so we commented it out -->
+<!-- <Heading text="Test Information" size={2.5} />
 
 <div class="section-wrapper">
   <PanelBox>
@@ -399,7 +405,7 @@
     </p>
   </PanelBox>
 </div>
-<br />
+<br /> -->
 
 <Heading text="Anti-Cheating Measures" size={2.5} />
 <div class="section-wrapper">

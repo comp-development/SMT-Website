@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How many students may be on a team?",
+    "answer": "Teams consist of 6-8 members. Individuals and incomplete teams may be combined by organizers to form complete teams."
+  },
+  {
+    "question": "Do students on the same team have to be from the same school or established mathematical organization?",
+    "answer": "No, you are free to form teams from outside of your school/in your area."
+  },
+  {
+    "question": "Can I register for SMT 2026 Online as an individual?",
+    "answer": "Yes, you can register as an individual."
+  },
+  {
+    "question": "What schools or organizations can participate in SMT?",
+    "answer": "SMT 2026 Online will be open to all schools and organizations."
+  },
+  {
+    "question": "Can international teams participate in SMT Online? If so, how do they register?",
+    "answer": "Yes, as long as they are able to take the tests in PDT time."
+  },
+  {
+    "question": "Will SMT Online have Awards?",
+    "answer": "There are no physical awards, but we will be announcing results and providing digital certificates of achievement. These digital certificates will be provided within 2 weeks of the tournament."
+  },
+  {
+    "question": "Are calculators allowed?",
+    "answer": "No. Calculators are not allowed on any portion of the tests. Check the SMT rules for information on permitted items."
+  },
+  {
+    "question": "What topics may appear on the tests? How hard are the tests?",
+    "answer": "See the mathematical expectations document for guidelines on what topics may appear on each test. It is also advisable to look at the test from previous years in order to get a sense of the typical style and difficulty of SMT tests."
+  },
+  {
+    "question": "Which individual test should I take?",
+    "answer": "If you have little or no experience with contest math, we strongly recommend you take the General Test. Looking at past tests will help you get a sense of the difficulty of each test."
+  },
+  {
+    "question": "Can I use the problems from previous SMT tests listed below in my classroom/book/etc?",
+    "answer": "Yes! Feel free to use these problems provided you cite us in the format (Stanford Math Tournament [Year] [Round] [Problem #])"
+  }
+]
