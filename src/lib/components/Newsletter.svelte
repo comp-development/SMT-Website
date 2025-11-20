@@ -31,32 +31,35 @@
   })
 </script>
 
-{#if show}
-  <div class="surround">
-    <div class="form">
-      <div id="mailjet-form">
-        <button
-          style="position: absolute; top: 10px; right: 10px; border: none; background-color: transparent; z-index: 10;"
-          on:click={() => {
-            show = !show
-            user.update((u) => (u = false))
-          }}
-        >
-          <Fa icon={faX} style="color: gray;cursor:pointer;" />
-        </button>
-        <iframe
-          data-w-type="embedded"
-          sandbox="allow-scripts allow-forms allow-same-origin"
-          src="https://1ss10.mjt.lu/wgt/1ss10/0ohn/form?c=067709a3"
-          width="100%"
-          height="600px"
-          title="SMT Mailing List Signup Form"
-          style="border: none;"
-        ></iframe>
-      </div>
+<div
+  class="surround"
+  class:visible={show}
+  aria-hidden={!show}
+  inert={!show ? true : undefined}
+>
+  <div class="form">
+    <div id="mailjet-form">
+      <button
+        style="position: absolute; top: 10px; right: 10px; border: none; background-color: transparent; z-index: 10;"
+        on:click={() => {
+          show = !show
+          user.update((u) => (u = false))
+        }}
+      >
+        <Fa icon={faX} style="color: gray;cursor:pointer;" />
+      </button>
+      <iframe
+        data-w-type="embedded"
+        sandbox="allow-scripts allow-forms allow-same-origin"
+        src="https://1ss10.mjt.lu/wgt/1ss10/0ohn/form?c=067709a3"
+        width="100%"
+        height="600px"
+        title="SMT Mailing List Signup Form"
+        style="border: none;"
+      ></iframe>
     </div>
   </div>
-{/if}
+</div>
 
 <style>
   .surround {
@@ -69,6 +72,16 @@
     width: 100%;
     height: 100vh !important;
     z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .surround.visible {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
   }
 
   #mailjet-form {
