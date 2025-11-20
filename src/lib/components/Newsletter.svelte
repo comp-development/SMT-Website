@@ -7,12 +7,27 @@
 
   onMount(() => {
     // Load Mailjet script when component mounts
-    if (typeof window !== 'undefined' && !document.querySelector('script[src*="mailjet.com"]')) {
-      const script = document.createElement('script')
-      script.type = 'text/javascript'
-      script.src = 'https://app.mailjet.com/pas-nc-embedded-v1.js'
-      document.body.appendChild(script)
+    const mailjetScriptSrc = 'https://app.mailjet.com/pas-nc-embedded-v1.js';
+    const dataAttr = 'data-mailjet-embedded';
+    let script = null;
+    if (
+      typeof window !== 'undefined' &&
+      !document.querySelector(`script[${dataAttr}]`)
+    ) {
+      script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = mailjetScriptSrc;
+      script.setAttribute(dataAttr, 'true');
+      document.body.appendChild(script);
+    } else {
+      script = document.querySelector(`script[${dataAttr}]`);
     }
+    // Cleanup function to remove the script when component unmounts
+    return () => {
+      if (script && script.parentNode) {
+        script.parentNode.removeChild(script);
+      }
+    };
   })
 </script>
 
