@@ -31,13 +31,15 @@
         </button>
         <iframe
           data-w-type="embedded"
-          frameborder="0"
+          sandbox="allow-scripts allow-forms allow-same-origin"
           scrolling="yes"
           marginheight="0"
           marginwidth="0"
           src="https://1ss10.mjt.lu/wgt/1ss10/0ohn/form?c=067709a3"
           width="100%"
+          height="600px"
           title="SMT Mailing List Signup Form"
+          style="border: none;"
         ></iframe>
       </div>
     </div>
