@@ -55,6 +55,7 @@
         width="100%"
         height="600px"
         title="SMT Mailing List Signup Form"
+        scrolling="yes"
         style="border: none;"
       ></iframe>
     </div>
