@@ -343,6 +343,6 @@
     height: 25px;
     border-radius: 25px;
     cursor: pointer;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
 </style>
