@@ -7,7 +7,8 @@
 
   onMount(() => {
     // Load Mailjet script when component mounts
-    const mailjetScriptSrc = 'https://app.mailjet.com/pas-nc-embedded-v1.js';
+    //Lowkey this Script doesn't seem to do what is intended, but oh well 
+    const mailjetScriptSrc = 'https://app.mailjet.com/pas-nc-pop-in-v1.js';
     const dataAttr = 'data-mailjet-embedded';
     let script = null;
     if (
