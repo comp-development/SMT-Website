@@ -25,7 +25,7 @@
     courseExpanded = !courseExpanded
   }
 
-  const MOBILE = 800
+  const MOBILE = 1100
   const TITLE_BREAKPOINT = MOBILE + 350
 
   const navPages = [
@@ -310,7 +310,7 @@
     display: block;
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1100px) {
     .navbar {
       height: 50px;
     }

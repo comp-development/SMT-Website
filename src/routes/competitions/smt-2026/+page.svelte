@@ -10,7 +10,7 @@
   import TimelineElement from '$lib/components/timeline/TimelineElement.svelte'
   import HeaderButton from '$lib/components/HeaderButton.svelte'
   import QA from '$lib/components/FAQitem.svelte'
-  import Questions from '$lib/FAQ-smt-2025.json'
+  import Questions from '$lib/FAQ-smt-2026.json'
 
   let windowWidth
 
@@ -69,7 +69,7 @@
     [
       "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
       '4:30 PM',
-      'Are You Smarter Than an SMT Organizer?',
+      'Friday Activity TBD',
       'Puzzle Hunt',
       'Stanford Tours',
       'Stanford Tours',
@@ -77,10 +77,10 @@
     [
       "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
       '6:00 PM',
-      'Origami Relay',
+      'Friday Activity TBD',
       'Puzzle Hunt',
-      'Math Games',
-      'Math Games',
+      'Friday Activity TBD',
+      'Friday Activity TBD',
     ],
     [
       "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
@@ -166,9 +166,9 @@
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
       '4:00 PM',
-      'Math Talk w/ Tadashi Tokieda',
+      'Saturday Activity TBD',
       'Integration Bee Finals',
-      'Estimathon',
+      'Saturday Activity TBD',
       'Unstructured Time',
     ],
     [
@@ -280,14 +280,17 @@
         <br />
         *Eventbrite charges around $2.00 per student in service fees.
         <br />
+        <br />
+        <b>Applications for SMT 2026 are not yet open.</b>
       </p>
-      <HeaderButton
+      <!-- Uncomment this once applications are open -->
+      <!-- <HeaderButton
         text="Apply for SMT"
         href={formLink}
         newTab="true"
         isSmall
         centered
-      />
+      /> -->
     </div>
   </PanelBox>
 </div>
@@ -382,7 +385,7 @@
 
 <Timeline width="60%">
   <TimelineElement>
-    <strong>December 13, 2025:</strong> In-person application form opens
+    <strong>Mid December, 2025:</strong> In-person application form opens
     <a href={formLink} target="_blank">here</a>
     <!-- <br /> -->
     <!-- <Link
@@ -432,6 +435,7 @@
   </FlexBox>
 </div>
 <br />
+
 
 <Heading text="Test Information" size={2.5} />
 
