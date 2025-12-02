@@ -329,7 +329,7 @@
         >, defined as organizations with students located in a 50 mile radius of
         its headquarters that (1) conduct mathematical enrichment activities
         beyond competition participation and (2) provide clear avenues for any
-        student to get involved. 
+        student to get involved.
         <i
           > Students may participate as part of an organization if and only if a student's school is not sending a team to SMT.
           Please note that we will only accept teams with exactly 5 or 6
