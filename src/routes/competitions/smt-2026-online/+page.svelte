@@ -102,13 +102,6 @@
     ],
     [
       "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
-      '8:00 AM',
-      'Check-In',
-      'Check-In',
-      'Check-In',
-    ],
-    [
-      "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
       '9:00 AM',
       'Opening Ceremony',
       'Opening Ceremony',
@@ -256,8 +249,8 @@
         <strong>LOCATION:</strong> Online <br />
         <strong>WHO:</strong> Students in high school and below, from anywhere
         in the world.* <br />
-        <strong>TEAM SIZE:</strong> 6-8 <br />
-        <strong>COST:</strong> $25-$45 per student** (see timeline below) <br />
+        <strong>TEAM SIZE:</strong> 5-6 <br />
+        <strong>COST:</strong> $25-$39 per student** (see timeline below) <br />
         <br />
         *The team formation rules for our in-person tournament do not apply here.
         Any students in high school or below can register with any team, or as an
@@ -265,7 +258,7 @@
         **Eventbrite charges around $2.00 per student in service fees.
         <br />
         <br />
-        <b>Applications for SMT 2026 Online are not yet open.</b>
+        <b>Registration for for SMT 2026 Online is not yet open.</b>
       </p>
       <!-- Uncomment this once applications are open -->
       <!-- <HeaderButton
@@ -327,20 +320,20 @@
   </TimelineElement>
   -->
   <TimelineElement>
-    <strong>April 6, 2026 at 11:59 PM PT:</strong> Regular ($25/student) registration
+    <strong>February 7, 2026 at 11:59 PM PT:</strong> Early Bird ($25/student) registration
     deadline.
+  </TimelineElement>
+  <TimelineElement>
+    <strong>March 21, 2026 at 11:59 PM PT:</strong> Regular ($30/student) registration
+    deadline.
+  </TimelineElement>
+  <TimelineElement>
+    <strong>April 9, 2026 at 11:59 PM PT:</strong> Late ($39/student) registration
+    deadline and deadline for adding students to teams. Teams
+    are frozen on COMP (our online test-taking software).
   </TimelineElement>
   <TimelineElement>
     <strong>April 11, 2026:</strong> SMT Online Puzzle Hunt
-  </TimelineElement>
-  <TimelineElement>
-    <strong>April 12, 2026 at 11:59 PM PT:</strong> Late ($35/student) registration
-    deadline.
-  </TimelineElement>
-  <TimelineElement>
-    <strong>April 15, 2026 at 11:59 PM PT:</strong> Very Late ($45/student) registration
-    deadline and deadline for adding students to teams and filling out waivers. Teams
-    are frozen on COMP (our online test-taking software).
   </TimelineElement>
   <TimelineElement>
     <strong>April 19, 2026:</strong> SMT Online
@@ -455,7 +448,7 @@
     </ul>
 
     <p>
-      Affected participants will be contacted by Wednesday, April 16, and must
+      Affected participants will be contacted by Wednesday, April 22, and must
       submit satisfactory recordings within 48 hours.
     </p>
 
