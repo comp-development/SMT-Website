@@ -158,9 +158,9 @@
       <h2>SMT</h2>
       <p>
         The Stanford Math Tournament (SMT) is a contest organized by Stanford
-        students, held on Stanford’s campus. In 2025, SMT was held on <b
-          >April 11-12, 2025</b
-        > for 800 high school contestants from around the United States.
+        students, held on Stanford’s campus. In 2026, SMT will be held on <b
+          >April 17-18, 2026</b
+        > for ~800 high school contestants from around the United States.
       </p>
       <div style="margin-top: 10px;">
         <HeaderButton
