@@ -314,7 +314,7 @@
       <p>
         Students are highly encouraged to participate in SMT 2026 as part of
         their <b>school team</b>. Students whose school is sending a team to SMT
-        must attend with their school. 
+        must attend with their school.
         <i
           >Please note that we will only accept school teams with exactly 5 or 6
           participants. If you have fewer than 5 members, consider applying as
