@@ -301,8 +301,8 @@
     <div style="padding: 10px;">
       <p>
         SMT 2026 will be inviting <b>800 students</b> (~130-160 teams) from
-        around the United States to compete in-person at Stanford. We are
-        <b>now accepting applications</b>
+        around the United States to compete in-person at Stanford. We will soon be
+        accepting applications
         for our in-person tournament from
         <b>schools, local mathematical organizations, and individuals</b>
         from the United States. Students who are unable to participate in-person
@@ -314,8 +314,7 @@
       <p>
         Students are highly encouraged to participate in SMT 2026 as part of
         their <b>school team</b>. Students whose school is sending a team to SMT
-        must attend with their school. Homeschooled students are considered to
-        be a part of their local public school.
+        must attend with their school.
         <i
           >Please note that we will only accept school teams with exactly 5 or 6
           participants. If you have fewer than 5 members, consider applying as
@@ -332,28 +331,33 @@
         beyond competition participation and (2) provide clear avenues for any
         student to get involved.
         <i
-          >Please note that we will only accept teams with exactly 5 or 6
+          > Students may participate as part of an organization if and only if a student's school is not sending a team to SMT.
+          Please note that we will only accept teams with exactly 5 or 6
           participants. If you have fewer than 5 members, consider applying as
           individuals.</i
         >
       </p>
       <h4>Individuals</h4>
       <p>
-        If your school is not sending a team to SMT 2026 in-person and you can't
-        find or form a local organization to participate with, you may register
+        If your school is not sending a team to SMT 2026 in-person, you may register
         as an <b>individual competitor</b>. Students who register as individuals
         will be placed in a team with 5 other individual competitors, based on
         geographic proximity. Individuals may have a lower chance of being
         accepted to compete in SMT than students participating as part of a
         school or organization.
+        If you have any questions or concerns regarding eligibility to compete as an individual, please email us at <a href='mailto:info@StanfordMathTournament.org'>info@StanfordMathTournament.org</a>.
       </p>
       <h4>Selection Method</h4>
       <p>
         We will reserve spots for <b>top school teams</b> (non-orgs) from SMT
-        2026 and for teams that are <b>low-income</b> and/or
+        2025 and for teams that are <b>low-income</b> and/or
         <b>historically underrepresented</b> in mathematics. The rest of the spots
         will be assigned via a lottery, with preference given to school-based teams,
         followed by local organizations and individuals.
+      </p>
+      <h4>Questions or Concerns?</h4>
+      <p>
+        Reach out to <a href='mailto:info@StanfordMathTournament.org'>info@StanfordMathTournament.org</a>.
       </p>
       <p>
         <i
@@ -363,7 +367,7 @@
           made by SMT are final and non-negotiable.</i
         >
       </p>
-      <p style="font-size: 0.8em;"><i>Last updated on 8/7/2026</i></p>
+      <p style="font-size: 0.8em;"><i>Last updated on 12/2/2025</i></p>
     </div>
   </PanelBox>
 </div>
@@ -385,7 +389,7 @@
 
 <Timeline width="60%">
   <TimelineElement>
-    <strong>Mid December, 2025:</strong> In-person application form opens
+    <strong>December 4, 2025:</strong> In-person application form opens
     <a href={formLink} target="_blank">here</a>
     <!-- <br /> -->
     <!-- <Link
@@ -394,14 +398,14 @@
              /> -->
   </TimelineElement>
   <TimelineElement>
-    <strong>March 8, 2026 at 11:59 PM PT:</strong> Application deadline
+    <strong>February 18, 2026 at 11:59 PM PT:</strong> Application deadline
   </TimelineElement>
   <TimelineElement>
-    <strong>March 13, 2026:</strong> Announcement of teams selected for in-person
+    <strong>February 24, 2026:</strong> Announcement of teams selected for in-person
     competition
   </TimelineElement>
   <TimelineElement>
-    <strong>March 20, 2026:</strong> Deadline for selected teams to register & confirm
+    <strong>March 9, 2026:</strong> Deadline for selected teams to register & confirm
     their spots
   </TimelineElement>
   <!--<TimelineElement>
@@ -415,7 +419,7 @@
     <strong>April 17, 2026:</strong> Optional Social Activities
   </TimelineElement>
   <TimelineElement>
-    <strong>April 18, 2026:</strong> SMT tournament day
+    <strong>April 18, 2026:</strong> SMT Tournament Day
   </TimelineElement>
 </Timeline>
 
