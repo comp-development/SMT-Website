@@ -164,8 +164,8 @@
       </p>
       <div style="margin-top: 10px;">
         <HeaderButton
-          href="/competitions/smt-2025"
-          text="Go to SMT 2025"
+          href="/competitions/smt-2026"
+          text="Go to SMT 2026"
           isSmall={true}
         />
       </div>
