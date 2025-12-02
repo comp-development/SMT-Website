@@ -258,7 +258,7 @@
         **Eventbrite charges around $2.00 per student in service fees.
         <br />
         <br />
-        <b>Registration for for SMT 2026 Online is not yet open.</b>
+        <b>Registration for SMT 2026 Online is not yet open.</b>
       </p>
       <!-- Uncomment this once applications are open -->
       <!-- <HeaderButton
