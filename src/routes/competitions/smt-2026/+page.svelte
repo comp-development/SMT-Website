@@ -314,7 +314,7 @@
       <p>
         Students are highly encouraged to participate in SMT 2026 as part of
         their <b>school team</b>. Students whose school is sending a team to SMT
-        must attend with their school. 
+        must attend with their school.
         <i
           >Please note that we will only accept school teams with exactly 5 or 6
           participants. If you have fewer than 5 members, consider applying as
@@ -329,7 +329,7 @@
         >, defined as organizations with students located in a 50 mile radius of
         its headquarters that (1) conduct mathematical enrichment activities
         beyond competition participation and (2) provide clear avenues for any
-        student to get involved. 
+        student to get involved.
         <i
           > Students may participate as part of an organization if and only if a student's school is not sending a team to SMT.
           Please note that we will only accept teams with exactly 5 or 6
@@ -345,7 +345,7 @@
         geographic proximity. Individuals may have a lower chance of being
         accepted to compete in SMT than students participating as part of a
         school or organization.
-        If you have any questions or concerns regarding eligibility to compete as an individual, please email us at <a href='mailto:info@StanfordMathTournament.org'>info@StanfordMathTournament.org.
+        If you have any questions or concerns regarding eligibility to compete as an individual, please email us at <a href='mailto:info@StanfordMathTournament.org'>info@StanfordMathTournament.org</a>.
       </p>
       <h4>Selection Method</h4>
       <p>
@@ -357,7 +357,7 @@
       </p>
       <h4>Questions or Concerns?</h4>
       <p>
-        Reach out to <a href='mailto:info@StanfordMathTournament.org'>info@StanfordMathTournament.org.
+        Reach out to <a href='mailto:info@StanfordMathTournament.org'>info@StanfordMathTournament.org</a>.
       </p>
       <p>
         <i
