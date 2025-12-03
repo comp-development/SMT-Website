@@ -339,7 +339,7 @@
       </p>
       <h4>Individuals</h4>
       <p>
-        If you are not applying as part of a team to SMT 2026 In-Person, you may apply
+        If you are not applying as part of a team to SMT 2026 in-person, you may apply
         as an <b>individual competitor</b>. Students who register as individuals
         will be placed in a team with 5 other individual competitors, based on
         geographic proximity. Individuals may have a lower chance of being
