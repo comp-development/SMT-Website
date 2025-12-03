@@ -20,7 +20,7 @@
     ['Event', 'Time', 'Students', 'Students', 'Students', 'Parents/Coaches'],
     [
       "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Monday, 4/14',
+      'Monday, 4/13',
       'PotD #1',
       'PotD #1',
       'PotD #1',
@@ -28,7 +28,7 @@
     ],
     [
       "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Tuesday, 4/15',
+      'Tuesday, 4/14',
       'PotD #2',
       'PotD #2',
       'PotD #2',
@@ -36,7 +36,7 @@
     ],
     [
       "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Wednesday, 4/16',
+      'Wednesday, 4/15',
       'PotD #3',
       'PotD #3',
       'PotD #3',
@@ -44,7 +44,7 @@
     ],
     [
       "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Thursday, 4/17',
+      'Thursday, 4/16',
       'PotD #4',
       'PotD #4',
       'PotD #4',
@@ -52,7 +52,7 @@
     ],
     [
       "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Friday, 4/18',
+      'Friday, 4/17',
       'PotD #5',
       'PotD #5',
       'PotD #5',
@@ -226,7 +226,7 @@
       'Guts',
       'Guts',
       "<i style='font-size:80%'>Team</i><br>Live-scored",
-      "32<br><i style='font-size:80%'>8 sets of 4</i>",
+      "32<br><i style='font-size:80%'>9 sets of 3</i>",
       "80'",
       '20%',
     ],
@@ -278,19 +278,19 @@
           /> instead.
         </i> <br />
         <br />
-        *Eventbrite charges around $2.00 per student in service fees.
+        *Humanitix charges around $2.00 per student in service fees.
         <br />
         <br />
-        <b>Applications for SMT 2026 are not yet open.</b>
+        <b>Applications for SMT 2026 are now open. You can apply <a href={formLink} target="_blank">here</a>.</b>
       </p>
       <!-- Uncomment this once applications are open -->
-      <!-- <HeaderButton
-        text="Apply for SMT"
+      <HeaderButton
+        text="Apply for SMT!"
         href={formLink}
         newTab="true"
         isSmall
         centered
-      /> -->
+      />
     </div>
   </PanelBox>
 </div>
@@ -301,7 +301,7 @@
     <div style="padding: 10px;">
       <p>
         SMT 2026 will be inviting <b>800 students</b> (~130-160 teams) from
-        around the United States to compete in-person at Stanford. We will soon be
+        around the United States to compete in-person at Stanford. We are now
         accepting applications
         for our in-person tournament from
         <b>schools, local mathematical organizations, and individuals</b>
@@ -339,7 +339,7 @@
       </p>
       <h4>Individuals</h4>
       <p>
-        If your school is not sending a team to SMT 2026 in-person, you may register
+        If you are not applying as part of a team to SMT 2026 In-Person, you may apply
         as an <b>individual competitor</b>. Students who register as individuals
         will be placed in a team with 5 other individual competitors, based on
         geographic proximity. Individuals may have a lower chance of being
@@ -389,7 +389,7 @@
 
 <Timeline width="60%">
   <TimelineElement>
-    <strong>December 4, 2025:</strong> In-person application form opens
+    <strong>December 3, 2025:</strong> In-person application form opens
     <a href={formLink} target="_blank">here</a>
     <!-- <br /> -->
     <!-- <Link
@@ -467,7 +467,7 @@
       consisting of 10 short answer questions. The subjects offered are
       <strong>
         Algebra, Calculus, Discrete (Number Theory & Combinatorics), and
-        Geometry
+        Geometry.
       </strong>
     </p>
     <p>

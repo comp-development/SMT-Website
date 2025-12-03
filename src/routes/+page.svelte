@@ -85,14 +85,14 @@
         globally.
       </p>
       <p class="descript">
-        <i>Applications for SMT 2026 are not yet open.</i>
+        <i>Apply to attend SMT 2026 below!</i>
       </p>
       <!--change to something better later -->
       <HeaderButton
-        text="SMT 2026!" 
-        arrowDirection="down"
-        onClick={() => scrollToElem(tournElem)}
-        isLink={false}
+        text="Apply for SMT!"
+        href={'https://link.StanfordMathTournament.org/apply'}
+        newTab="true"
+        isSmall
       />
       <br />
       <!--<button class="sign-up" on:click={() => {show = !show;}}><i class="fa-regular fa-newspaper"></i> Sign Up for our Newsletter</button>-->
