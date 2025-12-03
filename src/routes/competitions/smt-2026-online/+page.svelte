@@ -255,7 +255,7 @@
         *The team formation rules for our in-person tournament do not apply here.
         Any students in high school or below can register with any team, or as an
         individual! <br />
-        **Eventbrite charges around $2.00 per student in service fees.
+        **Humanitix charges around $2.00 per student in service fees.
         <br />
         <br />
         <b>Registration for SMT 2026 Online is not yet open.</b>
