@@ -223,7 +223,7 @@
         **Humanitix charges around $2.00 per student in service fees.
         <br />
         <br />
-        <b>Registration for SMT 2026 Online is not yet open. It will open in late January on <a href={formLink} target=_blank>COMP.mt</a>.</b>
+        <b>Registration for SMT 2026 Online is not yet open. It will open in late January on <a href={formLink} target="_blank">COMP.mt</a>.</b>
 
       </p>
       <!-- Uncomment this once applications are open -->
