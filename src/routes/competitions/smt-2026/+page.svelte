@@ -271,13 +271,13 @@
       </p>
       <div style="display: flex; gap: 16px; justify-content: center; align-items: center; margin: 10px 0;">
         <HeaderButton
-          text="Apply for SMT in-person!"
+          text="Apply for SMT In-Person!"
           href={formLink}
           newTab="true"
           isSmall
         />
         <HeaderButton
-          text="Register for SMT online!"
+          text="Register for SMT Online!"
           href="/competitions/smt-2026-online"
           isSmall
         />
@@ -338,18 +338,18 @@
           > Students may participate as part of an organization if and only if a student's school is not sending a team to SMT.
           Please note that we will only accept teams with exactly 5 or 6
           participants. If you have fewer than 5 members, consider applying as
-          individuals.</i
-        >
+          individuals.</i>
       </p>
       <h4>Individuals</h4>
       <p>
         If you are not applying as part of a team to SMT 2026 in-person, you may apply
-        as an <b>individual competitor</b>. Students who register as individuals
+        as an <b>individual competitor</b>. However, students are heavily encouraged to form teams with their schools. 
+        Students who register as individuals
         will be placed in a team with 5 other individual competitors, based on
-        geographic proximity. Individuals may have a lower chance of being
+        geographic proximity. <i> Individuals may have a lower chance of being
         accepted to compete in SMT than students participating as part of a
-        school or organization.
-        If you have any questions or concerns regarding eligibility to compete as an individual, please email us at <a href='mailto:info@StanfordMathTournament.org'>info@StanfordMathTournament.org</a>.
+        school or organization. 
+        If you have any questions or concerns regarding eligibility to compete as an individual, please email us at <a href='mailto:info@StanfordMathTournament.org'>info@StanfordMathTournament.org</a>. </i>
       </p>
       <h4>Selection Method</h4>
       <p>

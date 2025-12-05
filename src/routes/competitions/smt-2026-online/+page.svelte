@@ -14,41 +14,6 @@
 
   let windowWidth
 
-  const registrationData = [
-    ['Step', 'Team Coaches', 'Team Students', 'Individuals'],
-    [
-      '1',
-      "Create a <b>Coach</b> account on <a href='https://contestdojo.com' target='_blank'>ContestDojo</a>.",
-      "Create a <b>Student</b> account on <a href='https://contestdojo.com' target='_blank'>ContestDojo</a>.&nbsp",
-      "Create a <b>Student</b> account on <a href='https://contestdojo.com' target='_blank'>ContestDojo</a>.",
-    ],
-    [
-      '2',
-      "Buy the seats for your participating students on <a href='https://smt2024online.eventbrite.com/' target='_blank'>Eventbrite</a>. <b>Make sure to use the same organization name and email as on ContestDojo!</b> Seats may take up to a week to update in ContestDojo following payment.",
-      'Arrange payment with your coach.',
-      "Buy a seat on <a href='https://smt2024online.eventbrite.com/' target='_blank'>Eventbrite</a>. Use <b>Individual</b> as the organization name, <b>smtindividual@gmail.com</b> as the organization email, and the <b>student ContestDojo email</b> as the email associated with the ContestDojo account.",
-    ],
-    [
-      '3',
-      'Add your students to the ContestDojo platform. The deadline to add students (by Email or Join Code) and have them input their information is <b>4/10/2024 at 11:59 PM PT. This is a hard deadline.</b>',
-      'Students <b>join their organization</b> on ContestDojo by email or join code. The deadline to join your organization is <b>4/10/2024 at 11:59 PM PT. This is a hard deadline.</b>',
-      'Use join code <b>Nr4g</b> to join the Individual organization. You will later be assigned to a team.',
-    ],
-    [
-      '4',
-      'Once they have joined, organize your students into teams.',
-      'Parents of students will need to <b>fill out waivers</b> sent to them by Stanford. This may take up to 3 days from registering to send, and another 3 days after submission to update on ContestDojo.',
-      'Parents of students will need to <b>fill out waivers</b> sent to them by Stanford. This may take up to 3 days from registering to send, and another 3 days after submission to update on ContestDojo. &nbsp',
-    ],
-    [
-      '5',
-      "You're registered! More steps to follow via email closer to contest day.",
-      "You're registered! More steps to follow via email closer to contest day.",
-      "You're registered! More steps to follow via email closer to contest day.",
-    ],
-  ]
-  const registrationStyles = ['width: auto;', 'width: auto;', 'width: auto;']
-
   const scheduleData = [
     ['Event', 'Time (PDT)', 'Students', 'Students', 'Students'],
     [
@@ -74,14 +39,14 @@
     ],
     [
       "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Tuesday, 4/8',
+      'Tuesday, 4/14',
       'PotD #2',
       'PotD #2',
       'PotD #2',
     ],
     [
       "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
-      'Wednesday, 4/9',
+      'Wednesday, 4/15',
       'PotD #3',
       'PotD #3',
       'PotD #3',
@@ -250,7 +215,7 @@
         <strong>WHO:</strong> Students in high school and below, from anywhere
         in the world.* <br />
         <strong>TEAM SIZE:</strong> 5-6 <br />
-        <strong>COST:</strong> $25-$39 per student** (see timeline below) <br />
+        <strong>COST:</strong> $25-$35 per student** (see timeline below) <br />
         <br />
         *The team formation rules for our in-person tournament do not apply here.
         Any students in high school or below can register with any team, or as an
@@ -258,7 +223,8 @@
         **Humanitix charges around $2.00 per student in service fees.
         <br />
         <br />
-        <b>Registration for SMT 2026 Online is not yet open.</b>
+        <b>Registration for SMT 2026 Online is not yet open. It will open in late January on <a href={formLink} target=_blank>COMP.mt</a>.</b>
+
       </p>
       <!-- Uncomment this once applications are open -->
       <!-- <HeaderButton
@@ -328,7 +294,7 @@
     deadline.
   </TimelineElement>
   <TimelineElement>
-    <strong>April 9, 2026 at 11:59 PM PT:</strong> Late ($39/student) registration
+    <strong>April 9, 2026 at 11:59 PM PT:</strong> Late ($35/student) registration
     deadline and deadline for adding students to teams. Teams
     are frozen on COMP (our online test-taking software).
   </TimelineElement>

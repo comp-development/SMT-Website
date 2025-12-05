@@ -4,12 +4,20 @@
     "answer": "Teams must consist of 5-6 members. Teams with less or more students will not be accepted."
   },
   {
+    "question": "Which students may participate in SMT 2026 in-person?",
+    "answer": "Students must be in high school to participate in SMT 2026 in-person. However, SMT 2026 Online is open to students of all grades."
+  },
+  {
     "question": "Can I participate in SMT remotely?",
     "answer": "Yes, see the SMT Online Page."
   },
   {
+    "question": "Can I apply for SMT 2026 as an individual?",
+    "answer": "Yes, you can apply as an individual if you are unable to go as part of a school team."
+  },
+  {
     "question": "Do students on the same team have to be from the same school or established mathematical organization?",
-    "answer": "Yes, students must be from the same school or mathematical organization. If a student's school is participating, however, that student must participate through their school."
+    "answer": "Yes, students must be from the same school or mathematical organization. If a student's school is participating, however, that student must participate through their school. If a student is participating as an individual, they will be matched with teammates before tournament day."
   },
   {
     "question": "What schools or organizations can participate in SMT?",
@@ -33,14 +41,10 @@
   },
   {
     "question": "Do we need to have a teacher or coach attend SMT in person?",
-    "answer": "Yes, you must have at least one authorized adult chaperone present per team who is responsible for the team during the tournament."
+    "answer": "Yes, you must have at least one authorized adult chaperone present per team who is responsible for the team during the tournament. This can be a parent of a team member or a coach."
   },
   {
     "question": "Can I use the problems from previous SMT tests listed below in my classroom/book/etc?",
     "answer": "Yes! Feel free to use any officially released problems, provided you cite us in the format 'Stanford Math Tournament [Year] [Round] [Problem #]'"
-  },
-  {
-    "question": "What accommodations will SMT 2026 be providing for students who observe Passover?",
-    "answer": "The tournament is planned so that the main competition events will finish by 4:30, and awards will finish by 6:30, well before sunset. We will also provide chametz-free lunches for any students who require them. Please reach out to us with any other questions!"
   }
 ]
