@@ -277,7 +277,7 @@
           isSmall
         />
         <HeaderButton
-          text="Apply for SMT online!"
+          text="Register for SMT online!"
           href="/competitions/smt-2026-online"
           isSmall
         />
