@@ -241,7 +241,7 @@
     'width: 1 px',
   ]
 
-  const formLink = 'https://link.StanfordMathTournament.org/apply'
+  const formLink = 'https://docs.google.com/forms/d/e/1FAIpQLScSIsZtoJR4Ur0xwXUjCmZWpdyhauyxGj5R5IffHkLxxvJiUg/viewform'
 </script>
 
 <svelte:head>
@@ -268,29 +268,33 @@
         <strong>TEAM SIZE:</strong> 5-6 <br />
         <strong>COST:</strong> $30 per student* (Includes a t-shirt, dinner on Friday, and lunch on Saturday. Financial aid available upon
         request!) <br />
-
-        <br />
-        <i
-          >SMT 2026 is only for US high school students. If this doesn't apply
-          to you, we encourage you to participate in <Link
-            url="/competitions/smt-2026-online"
-            text="SMT 2026 Online"
-          /> instead.
-        </i> <br />
-        <br />
-        *Humanitix charges around $2.00 per student in service fees.
-        <br />
-        <br />
-        <b>Applications for SMT 2026 are now open. You can apply <a href={formLink} target="_blank">here</a>.</b>
       </p>
-      <!-- Uncomment this once applications are open -->
-      <HeaderButton
-        text="Apply for SMT!"
-        href={formLink}
-        newTab="true"
-        isSmall
-        centered
-      />
+      <div style="display: flex; gap: 16px; justify-content: center; align-items: center; margin: 10px 0;">
+        <HeaderButton
+          text="Apply for SMT in-person!"
+          href={formLink}
+          newTab="true"
+          isSmall
+        />
+        <HeaderButton
+          text="Register for SMT online!"
+          href="/competitions/smt-2026-online"
+          isSmall
+        />
+      </div>
+
+      <p>
+      <br />
+      <i
+        >SMT is only for US high school students. If this doesn't apply
+        to you, we encourage you to participate in <Link
+          url="/competitions/smt-2026-online"
+          text="SMT Online"
+        /> instead.
+      </i> <br />
+      <br />
+      *Humanitix charges around $2.00 per student in service fees.
+      </p>
     </div>
   </PanelBox>
 </div>

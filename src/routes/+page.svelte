@@ -90,8 +90,7 @@
       <!--change to something better later -->
       <HeaderButton
         text="Apply for SMT!"
-        href={'https://link.StanfordMathTournament.org/apply'}
-        newTab="true"
+        href={'/competitions/smt-2026'}
         isSmall
       />
       <br />
