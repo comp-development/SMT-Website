@@ -6,7 +6,7 @@
   import Table from '$lib/components/Table.svelte'
 
   const supportedYears = {
-    "SMT" : [2011, 2012, 2013, 2014, 2018, 2019, 2020, 2021, 2022, 2023, 2024 ],
+    "SMT" : [2011, 2012, 2013, 2014, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 ],
     "SM3" : [2025]
   }
 
@@ -18,9 +18,8 @@
 
   function getTableForYear(year, tb) {
     function getRow(round) {
-
-      let problems_file = `${round.toLowerCase()}-problems.pdf`
-      let solutions_file = `${round.toLowerCase()}-solutions.pdf`
+      let problems_file = `${round.toLowerCase().replaceAll(" ","")}-problems.pdf`
+      let solutions_file = `${round.toLowerCase().replaceAll(" ","")}-solutions.pdf`
       let key = tournament + "tests" + year;
       problems_file = problems_file.substr(0, problems_file.lastIndexOf(".")) + (fileextension_overrides[key]?.[round]?.problems ?? ".pdf");
       solutions_file = solutions_file.substr(0, solutions_file.lastIndexOf(".")) + (fileextension_overrides[key]?.[round]?.solutions ?? ".pdf");
@@ -55,6 +54,17 @@
     }
 
     let rounds = {
+      SMTtests2025: [ 
+        "Algebra",
+        "Calculus",
+        "Discrete",
+        "General",
+        "Geometry",
+        "Guts",
+        "Integration Bee",
+        "Integration Bee Qualification",
+        "Team",
+      ],
       SM3tests2025: [
         'Treelay', 
         'Origami',
@@ -241,7 +251,7 @@
             </table>
           </div>
 
-          {#if year !== 2011 && tournament != "SM3"}
+          {#if year != 2011 && year < 2025  && tournament != "SM3"}
             <div style="min-height: 100%; height: 100%;">
               <h3>Tiebreakers</h3>
               <table>
