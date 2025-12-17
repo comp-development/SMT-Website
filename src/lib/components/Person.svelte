@@ -58,7 +58,7 @@
           <div class="icons">
             <Tooltip title="Tournament Development">
               <BoopAction boopParams={{ y: 5, timing: 200 }}>
-                {#if Member.td == true}
+                {#if Member.positions?.td}
                   <Fa
                     style="margin: 3px"
                     class="icon tournament-development"
@@ -70,7 +70,7 @@
 
             <Tooltip title="Problem Writing">
               <BoopAction boopParams={{ y: 5, timing: 200 }}>
-                {#if Member.pw == true}
+                {#if Member.positions?.pw}
                   <Fa
                     style="margin: 3px"
                     class="icon problem-writing"
@@ -82,7 +82,7 @@
 
             <Tooltip title="Technology">
               <BoopAction boopParams={{ y: 5, timing: 200 }}>
-                {#if Member.t == true}
+                {#if Member.positions?.t}
                   <Fa
                     style="margin: 3px"
                     class="icon technology"

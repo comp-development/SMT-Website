@@ -40,10 +40,23 @@
 
   let windowWidth
 
-  let allRoles = Object.keys(roles)
-  let currentPriority = 0
 
-  let setPriority = (priority) => (currentPriority = priority)
+  const priorityMap = {
+    'DIRECTOR': 1,
+    'LEADERSHIP': 2,
+    'LEADERSHIP_EMERITUS': 3,
+    'MEMBERS': 5
+  }
+
+  const getNumericPriority = (priority) => {
+    if (priority === undefined || priority === null) {
+      return null
+    }
+    if (typeof priority === 'string') {
+      return priorityMap[priority] || priority
+    }
+    return priority
+  }
 </script>
 
 <svelte:head>
@@ -71,15 +84,13 @@
           textColor={LightenDarkenColor(tab.hex, -120)}
         />
         <br />
-        <FlexBox wrap={true}> 
-          <!--
-          orgpriority: 1 is no one, 2 is current lead, 3 is past lead
-          [team]priority: 1 is a lead, otherwise default is 5
-            --Justin L
-          [team] is either td (tournament development), pw (problem writing), or t (technology)
-          11/24/2025 Damian M.
-          -->
-          {#each [...new Set(Members.map((member) => member[tab.role + 'priority']))].sort() as priority}
+        <FlexBox wrap={true}>
+          {#each [...new Set(Members.map((member) => {
+            if (member.positions?.[tab.role]) {
+              return getNumericPriority(member.positions[tab.role])
+            }
+            return null
+          }).filter(p => p !== null))].sort() as priority}
             <Heading
               text={Titles.filter(function (title) {
                 return title.priority == priority
@@ -89,7 +100,7 @@
             />
             <div class="break" />
             {#each Members.filter(function (member) {
-              return member[tab.role] && member[tab.role + 'priority'] == priority
+              return member.positions?.[tab.role] && getNumericPriority(member.positions[tab.role]) == priority
             }) as Member}
               <Person
                 width="21em"
