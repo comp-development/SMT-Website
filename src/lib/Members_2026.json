@@ -1055,10 +1055,10 @@
       "first": "William",
       "last": "Wang",
       "pic2path": "about-us-images/silly/William_Wang.jpg",
-      "leadstatus":"non-lead",
-      "positions":{
-        "pw":"MEMBERS",
-        "org":"MEMBERS"
+      "leadstatus": "non-lead",
+      "positions": {
+        "pw": "MEMBERS",
+        "org": "MEMBERS"
       }
     },
     {
