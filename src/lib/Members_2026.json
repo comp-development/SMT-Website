@@ -461,7 +461,7 @@
         "leadstatus": "past-lead",
         "positions": {
             "td": "MEMBERS",
-            "pw":"MEMBERS",
+            "pw": "MEMBERS",
             "org": "LEADERSHIP_EMERITUS"
         }
     },
