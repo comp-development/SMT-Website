@@ -5,13 +5,11 @@
 <script>
   import FlexBox from '$lib/components/FlexBox.svelte'
   import Person from '$lib/components/Person.svelte'
-  import PageHeader from '$lib/components/PageHeader.svelte'
   import Members from '$lib/Members_2026.json'
   import Titles from '$lib/Titles.json'
   import Heading from '$lib/components/Heading.svelte'
   import Tabs from '$lib/components/Tabs.svelte'
   import { LightenDarkenColor } from '$lib/utils/Colors.svelte'
-    import { json } from '@sveltejs/kit'
 
   // List of tab items with labels, values and assigned components
   let items = [
