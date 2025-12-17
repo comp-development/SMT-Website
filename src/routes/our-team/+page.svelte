@@ -11,6 +11,7 @@
   import Heading from '$lib/components/Heading.svelte'
   import Tabs from '$lib/components/Tabs.svelte'
   import { LightenDarkenColor } from '$lib/utils/Colors.svelte'
+    import { json } from '@sveltejs/kit'
 
   // List of tab items with labels, values and assigned components
   let items = [
@@ -70,7 +71,14 @@
           textColor={LightenDarkenColor(tab.hex, -120)}
         />
         <br />
-        <FlexBox wrap={true}>
+        <FlexBox wrap={true}> 
+          <!--
+          orgpriority: 1 is no one, 2 is current lead, 3 is past lead
+          [team]priority: 1 is a lead, otherwise default is 5
+            --Justin L
+          [team] is either td (tournament development), pw (problem writing), or t (technology)
+          11/24/2025 Damian M.
+          -->
           {#each [...new Set(Members.map((member) => member[tab.role + 'priority']))].sort() as priority}
             <Heading
               text={Titles.filter(function (title) {
@@ -97,103 +105,11 @@
     </div>
   </Tabs>
 
-  <!--
-    <h1>Other Contributors</h1>
-    <div style="display: flex; justify-content: center; align-items: center;">
-      {#if windowWidth > 800}
-        <div
-          style="width: 25%;display: flex; justify-content: center; align-items: center;"
-        >
-          <ul>
-            <li>Aarjav Jain</li>
-            <li>Adam Zweiger</li>
-            <li>Advaith Vankamamidi</li>
-            <li>Aileen Liang</li>
-            <li>Alansha Jiang</li>
-            <li>Albert Tam</li>
-            <li>Angad Arora</li>
-            <li>Angela Yang</li>
-          </ul>
-        </div>
-        <div
-          style="width: 25%;display: flex; justify-content: center; align-items: center;"
-        >
-          <ul>
-            <li>Anish Deshpande</li>
-            <li>Eric Gao</li>
-            <li>Hanna Chen</li>
-            <li>Hanting Li</li>
-            <li>Karthik Vedula</li>
-            <li>Kevin Zhao</li>
-            <li>Krish Bhandari</li>
-            <li>Maxwell Shi</li>
-          </ul>
-        </div>
-        <div
-          style="width: 25%;display: flex; justify-content: center; align-items: center;"
-        >
-          <ul>
-            <li>Neal Yan</li>
-            <li>Ryan Li</li>
-            <li>Serena Xu</li>
-            <li>Siddhant Jena</li>
-            <li>Soham Garg</li>
-            <li>Sophie Fu</li>
-            <li>Yash Mathur</li>
-          </ul>
-        </div>
-      {:else}
-        <div>
-          <ul>
-            <li>Aarjav Jain</li>
-            <li>Adam Zweiger</li>
-            <li>Advaith Vankamamidi</li>
-            <li>Aileen Liang</li>
-            <li>Alansha Jiang</li>
-            <li>Albert Tam</li>
-            <li>Angad Arora</li>
-            <li>Angela Yang</li>
-  
-            <li>Anish Deshpande</li>
-            <li>Eric Gao</li>
-            <li>Hanna Chen</li>
-            <li>Hanting Li</li>
-            <li>Karthik Vedula</li>
-            <li>Kevin Zhao</li>
-            <li>Krish Bhandari</li>
-            <li>Maxwell Shi</li>
-  
-            <li>Neal Yan</li>
-            <li>Ryan Li</li>
-            <li>Serena Xu</li>
-            <li>Siddhant Jena</li>
-            <li>Soham Garg</li>
-            <li>Sophie Fu</li>
-            <li>Yash Mathur</li>
-          </ul>
-        </div>
-      {/if}
-    </div>
-  
-    <h1>Alumni</h1>
-    <FlexBox wrap={true}>
-      <Alumni
-        pic="archive/about-us-images-old/Gloria_Lee-modified-min.png"
-        name="Gloria Lee"
-        college="GeorgiaTech"
-      />
-      <Alumni
-        pic="archive/about-us-images-old/Mustang-modified-min.png"
-        name="Arnav Narula"
-        college="Yale"
-      />
-      <Alumni
-        pic="archive/about-us-images-old/Mustang-modified-min.png"
-        name="Krish Jain"
-        college="Carnegie Mellon University"
-      />
-    </FlexBox>
-  -->
+  <!--I feel like the following commented code should be removed. It seems like it references a prior version of displaying members and their info that
+  no longer seems referenced. 
+  11/23/2025 Damian M-->
+
+
 </section>
 
 <style>
