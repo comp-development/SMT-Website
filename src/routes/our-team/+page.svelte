@@ -5,7 +5,6 @@
 <script>
   import FlexBox from '$lib/components/FlexBox.svelte'
   import Person from '$lib/components/Person.svelte'
-  import PageHeader from '$lib/components/PageHeader.svelte'
   import Members from '$lib/Members_2026.json'
   import Titles from '$lib/Titles.json'
   import Heading from '$lib/components/Heading.svelte'
@@ -39,10 +38,23 @@
 
   let windowWidth
 
-  let allRoles = Object.keys(roles)
-  let currentPriority = 0
 
-  let setPriority = (priority) => (currentPriority = priority)
+  const priorityMap = {
+    'DIRECTOR': 1,
+    'LEADERSHIP': 2,
+    'LEADERSHIP_EMERITUS': 3,
+    'MEMBERS': 5
+  }
+
+  const getNumericPriority = (priority) => {
+    if (priority === undefined || priority === null) {
+      return null
+    }
+    if (typeof priority === 'string') {
+      return priorityMap[priority] || priority
+    }
+    return priority
+  }
 </script>
 
 <svelte:head>
@@ -71,7 +83,12 @@
         />
         <br />
         <FlexBox wrap={true}>
-          {#each [...new Set(Members.map((member) => member[tab.role + 'priority']))].sort() as priority}
+          {#each [...new Set(Members.map((member) => {
+            if (member.positions?.[tab.role]) {
+              return getNumericPriority(member.positions[tab.role])
+            }
+            return null
+          }).filter(p => p !== null))].sort() as priority}
             <Heading
               text={Titles.filter(function (title) {
                 return title.priority == priority
@@ -81,7 +98,7 @@
             />
             <div class="break" />
             {#each Members.filter(function (member) {
-              return member[tab.role] && member[tab.role + 'priority'] == priority
+              return member.positions?.[tab.role] && getNumericPriority(member.positions[tab.role]) == priority
             }) as Member}
               <Person
                 width="21em"
@@ -97,103 +114,11 @@
     </div>
   </Tabs>
 
-  <!--
-    <h1>Other Contributors</h1>
-    <div style="display: flex; justify-content: center; align-items: center;">
-      {#if windowWidth > 800}
-        <div
-          style="width: 25%;display: flex; justify-content: center; align-items: center;"
-        >
-          <ul>
-            <li>Aarjav Jain</li>
-            <li>Adam Zweiger</li>
-            <li>Advaith Vankamamidi</li>
-            <li>Aileen Liang</li>
-            <li>Alansha Jiang</li>
-            <li>Albert Tam</li>
-            <li>Angad Arora</li>
-            <li>Angela Yang</li>
-          </ul>
-        </div>
-        <div
-          style="width: 25%;display: flex; justify-content: center; align-items: center;"
-        >
-          <ul>
-            <li>Anish Deshpande</li>
-            <li>Eric Gao</li>
-            <li>Hanna Chen</li>
-            <li>Hanting Li</li>
-            <li>Karthik Vedula</li>
-            <li>Kevin Zhao</li>
-            <li>Krish Bhandari</li>
-            <li>Maxwell Shi</li>
-          </ul>
-        </div>
-        <div
-          style="width: 25%;display: flex; justify-content: center; align-items: center;"
-        >
-          <ul>
-            <li>Neal Yan</li>
-            <li>Ryan Li</li>
-            <li>Serena Xu</li>
-            <li>Siddhant Jena</li>
-            <li>Soham Garg</li>
-            <li>Sophie Fu</li>
-            <li>Yash Mathur</li>
-          </ul>
-        </div>
-      {:else}
-        <div>
-          <ul>
-            <li>Aarjav Jain</li>
-            <li>Adam Zweiger</li>
-            <li>Advaith Vankamamidi</li>
-            <li>Aileen Liang</li>
-            <li>Alansha Jiang</li>
-            <li>Albert Tam</li>
-            <li>Angad Arora</li>
-            <li>Angela Yang</li>
-  
-            <li>Anish Deshpande</li>
-            <li>Eric Gao</li>
-            <li>Hanna Chen</li>
-            <li>Hanting Li</li>
-            <li>Karthik Vedula</li>
-            <li>Kevin Zhao</li>
-            <li>Krish Bhandari</li>
-            <li>Maxwell Shi</li>
-  
-            <li>Neal Yan</li>
-            <li>Ryan Li</li>
-            <li>Serena Xu</li>
-            <li>Siddhant Jena</li>
-            <li>Soham Garg</li>
-            <li>Sophie Fu</li>
-            <li>Yash Mathur</li>
-          </ul>
-        </div>
-      {/if}
-    </div>
-  
-    <h1>Alumni</h1>
-    <FlexBox wrap={true}>
-      <Alumni
-        pic="archive/about-us-images-old/Gloria_Lee-modified-min.png"
-        name="Gloria Lee"
-        college="GeorgiaTech"
-      />
-      <Alumni
-        pic="archive/about-us-images-old/Mustang-modified-min.png"
-        name="Arnav Narula"
-        college="Yale"
-      />
-      <Alumni
-        pic="archive/about-us-images-old/Mustang-modified-min.png"
-        name="Krish Jain"
-        college="Carnegie Mellon University"
-      />
-    </FlexBox>
-  -->
+  <!--I feel like the following commented code should be removed. It seems like it references a prior version of displaying members and their info that
+  no longer seems referenced. 
+  11/23/2025 Damian M-->
+
+
 </section>
 
 <style>
