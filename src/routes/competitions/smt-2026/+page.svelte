@@ -226,7 +226,7 @@
       'Guts',
       'Guts',
       "<i style='font-size:80%'>Team</i><br>Live-scored",
-      "32<br><i style='font-size:80%'>9 sets of 3</i>",
+      "32<br><i style='font-size:80%'>8 sets of 4</i>",
       "80'",
       '20%',
     ],
@@ -476,7 +476,7 @@
     </p>
     <p>
       The <strong>Guts Round</strong> is an 80 minute live-scored team exam consisting
-      of 9 series of 3 questions each, whereby teams must submit answers to a previous
+      of 8 series of 4 questions each, whereby teams must submit answers to a previous
       round in order to gain access to the next. Subsequent rounds are both harder
       and worth more points than previous rounds.
     </p>
