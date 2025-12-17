@@ -86,8 +86,7 @@
         "pic2path": "about-us-images/silly/Camila_Blank.jpg",
         "leadstatus": "non-lead",
         "positions": {
-            "td": "MEMBERS",
-            "org": "MEMBERS"
+            
         }
     },
     {
@@ -203,7 +202,6 @@
         "pic2path": "about-us-images/silly/Nacho_Cho.jpg",
         "leadstatus": "non-lead",
         "positions": {
-            "td": "MEMBERS",
             "pw": "MEMBERS",
             "org": "MEMBERS"
         }
@@ -217,8 +215,7 @@
         "pic2path": "about-us-images/silly/Derrick_Chu.jpeg",
         "leadstatus": "non-lead",
         "positions": {
-            "pw": "MEMBERS",
-            "org": "MEMBERS"
+
         }
     },
     {
@@ -299,6 +296,19 @@
             "org": "MEMBERS"
         }
     },
+    {
+      "displayname": "Ana Lucia Elices",
+      "pic1path": "about-us-images/serious/Ana_Lucia.jpg",
+      "bio": "Ana Lucia is a sophomore studying mathematics. Outside of SMT logistics, she enjoys reading, finding new hikes, and writing lengthy book reviews.",
+      "first": "Ana",
+      "last": "Elices",
+      "pic2path": "about-us-images/silly/Ana_Lucia.png",
+      "leadstatus": "non-lead",
+      "positions": {
+          "td": "MEMBERS",
+          "org": "MEMBERS"
+      }
+  },
     {
         "displayname": "Mason Eyler",
         "pic1path": "about-us-images/serious/Mason_Eyler.jpg",
@@ -412,8 +422,7 @@
         "pic2path": "about-us-images/silly/Abhi_Gorle.png",
         "leadstatus": "non-lead",
         "positions": {
-            "pw": "MEMBERS",
-            "org": "MEMBERS"
+            
         }
     },
     {
@@ -452,6 +461,7 @@
         "leadstatus": "past-lead",
         "positions": {
             "td": "MEMBERS",
+            "pw": "MEMBERS",
             "org": "LEADERSHIP_EMERITUS"
         }
     },
@@ -464,8 +474,6 @@
         "pic2path": "about-us-images/silly/Hongzhou_Wu.jpg",
         "leadstatus": "non-lead",
         "positions": {
-            "pw": "MEMBERS",
-            "org": "MEMBERS"
         }
     },
     {
@@ -477,8 +485,7 @@
         "pic2path": "about-us-images/silly/Alexander_Huang.jpg",
         "leadstatus": "non-lead",
         "positions": {
-            "pw": "MEMBERS",
-            "org": "MEMBERS"
+            
         }
     },
     {
@@ -491,19 +498,6 @@
         "leadstatus": "non-lead",
         "positions": {
             "pw": "MEMBERS",
-            "org": "MEMBERS"
-        }
-    },
-    {
-        "displayname": "Juli Huang",
-        "pic1path": "about-us-images/serious/Juli_Huang.jpg",
-        "bio": "Juli is a soph interested in computer science, AI, and math. When she's not doing tech stuff for SMT, you can usually find her crunching PSETs, playing random songs on the piano, or trying not to lose at poker.",
-        "first": "Juli",
-        "last": "Huang",
-        "pic2path": "about-us-images/silly/Juli_Huang.jpg",
-        "leadstatus": "non-lead",
-        "positions": {
-            "t": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -569,12 +563,11 @@
         "pic2path": "about-us-images/silly/Nanxi_Jiang.jpg",
         "leadstatus": "non-lead",
         "positions": {
-            "pw": "MEMBERS",
-            "org": "MEMBERS"
+          
         }
     },
     {
-        "displayname": "Rachel K.",
+        "displayname": "Rachel Ku",
         "pic1path": "about-us-images/serious/Rachel_K..jpg",
         "bio": "Rachel is a freshman studying computer science and math. Outside of SMT problem solving, she enjoys playing racket sports (table tennis and pickleball), eating new food, and listening to new music.",
         "first": "Rachel",
@@ -596,6 +589,7 @@
         "leadstatus": "non-lead",
         "positions": {
             "t": "MEMBERS",
+            "td":"MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -626,18 +620,18 @@
         }
     },
     {
-        "displayname": "Uatshila Lanon Munenyiwa",
-        "pic1path": "about-us-images/serious/Uatshila_Munenyiwa.jpg",
-        "bio": "Lanon is a freshman and a prospective STEM major. Outside of SMT logistics, she enjoys talking to people, staying active, and inventing things. :)",
-        "first": "Uatshila",
-        "last": "Lanon Munenyiwa",
-        "pic2path": "about-us-images/silly/Uatshila_Munenyiwa.jpg",
-        "leadstatus": "non-lead",
-        "positions": {
-            "td": "MEMBERS",
-            "org": "MEMBERS"
-        }
-    },
+      "displayname": "Sean Kuwamoto",
+      "pic1path": "SMT_red.png",
+      "bio": "",
+      "first": "Sean",
+      "last": "Kuwamoto",
+      "pic2path": "SMT_red.png",
+      "leadstatus": "non-lead",
+      "positions": {
+          "td": "MEMBERS",
+          "org": "MEMBERS"
+      }
+  },
     {
         "displayname": "Anastasia Lee",
         "pic1path": "about-us-images/serious/Anastasia_Lee.jpg",
@@ -648,19 +642,6 @@
         "leadstatus": "non-lead",
         "positions": {
             "t": "MEMBERS",
-            "org": "MEMBERS"
-        }
-    },
-    {
-        "displayname": "Ethan Lee",
-        "pic1path": "SMT_red.png",
-        "bio": "Ethan is a freshman studying mathematics. Besides problem writing and problem solving in SMT, Ethan enjoys participating in coding contests and loves playing the piano.",
-        "first": "Ethan",
-        "last": "Lee",
-        "pic2path": "about-us-images/silly/Ethan_Lee.jpg",
-        "leadstatus": "non-lead",
-        "positions": {
-            "pw": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -744,19 +725,6 @@
         }
     },
     {
-        "displayname": "Ana Lucia",
-        "pic1path": "about-us-images/serious/Ana_Lucia.jpg",
-        "bio": "Ana Lucia is a sophomore studying mathematics. Outside of SMT logistics, she enjoys reading, finding new hikes, and writing lengthy book reviews.",
-        "first": "Ana",
-        "last": "Lucia",
-        "pic2path": "about-us-images/silly/Ana_Lucia.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "td": "MEMBERS",
-            "org": "MEMBERS"
-        }
-    },
-    {
         "displayname": "Bhushan Mohanraj",
         "pic1path": "about-us-images/serious/Bhushan_Mohanraj.jpg",
         "bio": "Bhushan is a sophomore studying computer engineering. Outside of problem writing, he loves hikes and nighttime walks, jogging and soccer, and programming.",
@@ -769,6 +737,18 @@
             "org": "MEMBERS"
         }
     },
+    {
+      "displayname": "Uatshila Lanon Munenyiwa",
+      "pic1path": "about-us-images/serious/Uatshila_Munenyiwa.jpg",
+      "bio": "Lanon is a freshman and a prospective STEM major. Outside of SMT logistics, she enjoys talking to people, staying active, and inventing things. :)",
+      "first": "Uatshila",
+      "last": "Lanon Munenyiwa",
+      "pic2path": "about-us-images/silly/Uatshila_Munenyiwa.jpg",
+      "leadstatus": "non-lead",
+      "positions": {
+          
+      }
+  },
     {
         "displayname": "Damian Muschamp",
         "pic1path": "about-us-images/serious/Damian_Muschamp.jpg",
@@ -909,7 +889,8 @@
         "pic2path": "about-us-images/silly/Neil_Rathi.jpg",
         "leadstatus": "past-lead",
         "positions": {
-            "org": "LEADERSHIP_EMERITUS"
+            "org": "LEADERSHIP_EMERITUS",
+            "td":"MEMBERS"
         }
     },
     {
@@ -986,8 +967,7 @@
         "pic2path": "about-us-images/silly/Anais_Sobrier.png",
         "leadstatus": "non-lead",
         "positions": {
-            "td": "MEMBERS",
-            "org": "MEMBERS"
+            
         }
     },
     {
@@ -1069,12 +1049,25 @@
         }
     },
     {
+      "displayname": "William Wang",
+      "pic1path": "about-us-images/serious/William_Wang_old.jpg",
+      "bio": "William is a sophomore interested in math and physics. When he's not writing egregious problems, you can find him playing percussion and failing at GeoGuessr.",
+      "first": "William",
+      "last": "Wang",
+      "pic2path": "about-us-images/silly/William_Wang.jpg",
+      "leadstatus": "non-lead",
+      "positions": {
+        "pw": "MEMBERS",
+        "org": "MEMBERS"
+      }
+    },
+    {
         "displayname": "William Wang",
         "pic1path": "about-us-images/serious/William_Wang.jpg",
         "bio": "William is a freshman studying computer science. When he is not writing problems, he is likely playing racket sports or building military vehicles out of Legos.",
         "first": "William",
         "last": "Wang",
-        "pic2path": "about-us-images/silly/William_Wang.jpg",
+        "pic2path": "about-us-images/silly/William_Wang.png",
         "leadstatus": "non-lead",
         "positions": {
             "pw": "MEMBERS",
@@ -1173,19 +1166,6 @@
         }
     },
     {
-        "displayname": "Ellen Xu",
-        "pic1path": "about-us-images/serious/Ellen_Xu.jpg",
-        "bio": "Ellen is a sophomore studying math and computer science. In her free time she likes fencing, running, flying, and playing puzzle/board games.",
-        "first": "Ellen",
-        "last": "Xu",
-        "pic2path": "about-us-images/silly/Ellen_Xu.jpg",
-        "leadstatus": "non-lead",
-        "positions": {
-            "pw": "MEMBERS",
-            "org": "MEMBERS"
-        }
-    },
-    {
         "displayname": "Iris Xu",
         "pic1path": "about-us-images/serious/Iris_Xu.jpg",
         "bio": "Iris is a freshman potentially majoring in Computer Science and/or Math. Aside from writing problems for SMT, she also enjoys reading, writing poetry, and being an amateur at taekwondo.",
@@ -1194,7 +1174,7 @@
         "pic2path": "about-us-images/silly/Iris_Xu.jpg",
         "leadstatus": "non-lead",
         "positions": {
-            "pw": "MEMBERS",
+            "t": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -1350,7 +1330,8 @@
         "pic2path": "SMT_red.png",
         "leadstatus": "past-lead",
         "positions": {
-            "org": "LEADERSHIP_EMERITUS"
+            "org": "LEADERSHIP_EMERITUS",
+            "pw": "MEMBERS"
         }
     },
     {
