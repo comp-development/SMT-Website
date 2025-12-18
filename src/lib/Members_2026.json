@@ -1050,11 +1050,11 @@
     },
     {
       "displayname": "William Wang",
-      "pic1path": "about-us-images/serious/William_Wang_old.jpg",
+      "pic1path": "about-us-images/serious/William_Chi_Wang.jpg",
       "bio": "William is a sophomore interested in math and physics. When he's not writing egregious problems, you can find him playing percussion and failing at GeoGuessr.",
       "first": "William",
       "last": "Wang",
-      "pic2path": "about-us-images/silly/William_Wang.jpg",
+      "pic2path": "about-us-images/silly/William_Chi_Wang.jpg",
       "leadstatus": "non-lead",
       "positions": {
         "pw": "MEMBERS",
