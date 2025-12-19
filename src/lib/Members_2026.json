@@ -300,7 +300,7 @@
       "displayname": "Ana Lucia Elices",
       "pic1path": "about-us-images/serious/Ana_Lucia.jpg",
       "bio": "Ana Lucia is a sophomore studying mathematics. Outside of SMT logistics, she enjoys reading, finding new hikes, and writing lengthy book reviews.",
-      "first": "Ana",
+      "first": "Ana Lucia",
       "last": "Elices",
       "pic2path": "about-us-images/silly/Ana_Lucia.png",
       "leadstatus": "non-lead",
@@ -1050,11 +1050,11 @@
     },
     {
       "displayname": "William Wang",
-      "pic1path": "about-us-images/serious/William_Wang_old.jpg",
+      "pic1path": "about-us-images/serious/William_Chi_Wang.jpg",
       "bio": "William is a sophomore interested in math and physics. When he's not writing egregious problems, you can find him playing percussion and failing at GeoGuessr.",
       "first": "William",
       "last": "Wang",
-      "pic2path": "about-us-images/silly/William_Wang.jpg",
+      "pic2path": "about-us-images/silly/William_Chi_Wang.jpg",
       "leadstatus": "non-lead",
       "positions": {
         "pw": "MEMBERS",
