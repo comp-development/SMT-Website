@@ -1,67 +1,160 @@
 <script>
   import { user } from '$lib/store'
-  import { onMount } from 'svelte'
+  import { enhance, applyAction } from '$app/forms';
   export let show = false
   import Fa from 'svelte-fa'
   import { faX } from '@fortawesome/free-solid-svg-icons'
 
-  onMount(() => {
-    // Load Mailjet script when component mounts
-    //Lowkey this Script doesn't seem to do what is intended, but oh well 
-    const mailjetScriptSrc = 'https://app.mailjet.com/pas-nc-pop-in-v1.js';
-    const dataAttr = 'data-mailjet-embedded';
-    let script = null;
+  async function handleSubmit({ formData, cancel }){
     if (
-      typeof window !== 'undefined' &&
-      !document.querySelector(`script[${dataAttr}]`)
+      formData.get("firstName") == '' ||
+      formData.get("lastName") == '' ||
+      formData.get("email") == '' ||
+      formData.get("grade") == '' ||
+      formData.get("b_c80101147f7690b2cd88056c7_10f0771adf") != '' ||   //Honeypot for bots 
+      !formData.get("email").match(
+        /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+      )
     ) {
-      script = document.createElement('script');
-      script.type = 'text/javascript';
-      script.src = mailjetScriptSrc;
-      script.setAttribute(dataAttr, 'true');
-      document.body.appendChild(script);
-    } else {
-      script = document.querySelector(`script[${dataAttr}]`);
-    }
-    // Cleanup function to remove the script when component unmounts
-    return () => {
-      if (script && script.parentNode) {
-        script.parentNode.removeChild(script);
+      alert('Please fill out all required fields');
+      cancel();
+    }else{
+      return async ({ result }) => {
+        show = !show;
+        alert('Subscribed!');
+        await applyAction(result);
       }
-    };
-  })
+    }
+  }
 </script>
 
-<div
-  class="surround"
-  class:visible={show}
-  aria-hidden={!show}
-  inert={!show ? true : undefined}
->
-  <div class="form">
-    <div id="mailjet-form">
-      <button
-        style="position: absolute; top: 10px; right: 10px; border: none; background-color: transparent; z-index: 10;"
-        on:click={() => {
-          show = !show
-          user.update((u) => (u = false))
-        }}
-      >
-        <Fa icon={faX} style="color: gray;cursor:pointer;" />
-      </button>
-      <iframe
-        data-w-type="embedded"
-        sandbox="allow-scripts allow-forms allow-same-origin"
-        src="https://1ss10.mjt.lu/wgt/1ss10/0ohn/form?c=067709a3"
-        width="100%"
-        height="600px"
-        title="SMT Mailing List Signup Form"
-        scrolling="yes"
-        style="border: none;"
-      ></iframe>
+{#if show}
+  <div class="surround">
+    <div class="form">
+      <link
+        href="//cdn-images.mailchimp.com/embedcode/classic-071822.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <div id="mc_embed_signup">
+        <button
+          style="position: absolute; top: 10px; right: 10px; border: none; background-color: transparent;"
+          on:click={() => {
+            show = !show
+            user.update((u) => (u = false))
+          }}
+        >
+          <Fa icon={faX} style="color: gray;cursor:pointer;" />
+        </button>
+        <form
+          novalidate
+          method="POST"
+          action="?/subscribe"
+          use:enhance={handleSubmit}
+        >
+          <div id="mc_embed_signup_scroll">
+            <div>
+              <h2 style="margin: 0; padding:0;">
+                <strong>Join the SMT Mailing List!</strong>
+              </h2>
+              <br />
+              <p style="margin: 0; padding:0;">
+                Sign up for our mailing list for date announcements, deadlines,
+                and more!
+              </p>
+              <br />
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-FNAME"
+                >First Name <span class="asterisk">*</span></label
+              >
+              <input
+                type="text"
+                name="firstName"
+                class=""
+                id="mce-FNAME"
+                required
+              />
+              <span id="mce-FNAME-HELPERTEXT" class="helper_text" />
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-LNAME"
+                >Last Name <span class="asterisk">*</span></label
+              >
+              <input
+                type="text"
+                name="lastName"
+                class=""
+                id="mce-LNAME"
+              />
+              <span id="mce-LNAME-HELPERTEXT" class="helper_text" />
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-EMAIL"
+                >Email Address <span class="asterisk">*</span>
+              </label>
+              <input
+                type="email"
+                name="email"
+                class="required email"
+                id="mce-EMAIL"
+                required
+              />
+              <span id="mce-EMAIL-HELPERTEXT" class="helper_text" />
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-undefined"
+                >Student Grade (2025-26) <span class="asterisk">*</span></label
+              >
+              <select
+                name="grade"
+                class=""
+                id="mce-undefined"
+              >
+                <option value="" />
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13+">N/A</option>
+              </select>
+              <span id="mce-GRADE-HELPERTEXT" class="helper_text" />
+            <div>
+              <div
+                style="position: absolute; left: -5000px;"
+                aria-hidden="true"
+              >
+                <input
+                  type="text"
+                  name="b_c80101147f7690b2cd88056c7_10f0771adf"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <div class="optionalParent">
+                <div class="clear foot"> 
+                  <button 
+                    style="min-height: 50px" 
+                    class="button">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-</div>
+{/if}
 
 <style>
   .surround {
@@ -74,50 +167,75 @@
     width: 100%;
     height: 100vh !important;
     z-index: 100;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: opacity 0.2s ease;
   }
 
-  .surround.visible {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-
-  #mailjet-form {
+  #mc_embed_signup {
     background: #fff;
     clear: left;
-    width: 700px;
-    max-width: 90vw;
-    padding: 20px;
+    width: 400px;
+    padding: 5px;
+    padding-right: 10px;
     border-radius: 15px;
     position: relative;
-    max-height: 90vh;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  @media only screen and (max-width: 768px) {
-    #mailjet-form {
-      width: 90%;
-      padding: 15px;
-    }
+    grid-template-columns: 4fr;
   }
 
   @media only screen and (max-width: 450px) {
-    #mailjet-form {
-      width: 95%;
-      padding: 10px;
+    #mc_embed_signup {
+      width: 300px;
     }
   }
 
-  #mailjet-form iframe {
-    min-height: 600px;
-    height: 100%;
-    border: none;
-    flex: 1;
+  @media only screen and (max-width: 350px) {
+    #mc_embed_signup {
+      width: 90%;
+    }
+  }
+
+  #mc_embed_signup .foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 4px !important;
+    border-radius: 50px !important;
+    background-color: #981c1d !important;
+  }
+
+  .button:hover {
+    background-color: #981c1d !important;
+  }
+
+  #mc_embed_signup_scroll {
+    margin: 0 !important;
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 0 !important;
+  }
+
+  #mc_embed_signup .mc-field-group select,
+  #mc_embed_signup .mc-field-group input {
+    border: 1px solid rgb(199, 199, 199);
+    outline: none;
+    border-radius: 50px;
+    width: 98% !important;
+    color: rgb(95, 95, 95);
+    font-size: 15px;
+    padding: 10px 0px 10px 7px !important;
+  }
+
+  #mc_embed_signup .mc-field-group select {
+    width: 100% !important;
+  }
+
+  #mc_embed_signup .mc-field-group select:focus,
+  #mc_embed_signup .mc-field-group input:focus {
+    border: 1px solid #981c1d;
+    outline: none;
   }
 </style>
