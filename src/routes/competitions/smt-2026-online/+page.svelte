@@ -223,7 +223,7 @@
         **Humanitix charges around $2.00 per student in service fees.
         <br />
         <br />
-        <b>Registration for SMT 2026 Online is not yet open. It will open in late January on <a href={formLink} target="_blank">COMP.mt</a>.</b>
+        <b>Registration for SMT 2026 Online is not yet open. It will open in early February on <a href={formLink} target="_blank">COMP.mt</a>.</b>
 
       </p>
       <!-- Uncomment this once applications are open -->
@@ -271,7 +271,7 @@
 
 <Timeline width="60%">
   <TimelineElement>
-    <strong>Late January:</strong> Registration opens on
+    <strong>Early February:</strong> Registration opens on
     <a href={formLink} target="_blank">COMP.MT</a>
     <!-- <br /> -->
     <!-- <Link
@@ -286,7 +286,7 @@
   </TimelineElement>
   -->
   <TimelineElement>
-    <strong>February 7, 2026 at 11:59 PM PT:</strong> Early Bird ($25/student) registration
+    <strong>February 14, 2026 at 11:59 PM PT:</strong> Early Bird ($25/student) registration
     deadline.
   </TimelineElement>
   <TimelineElement>
