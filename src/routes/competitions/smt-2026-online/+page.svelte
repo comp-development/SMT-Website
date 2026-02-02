@@ -286,7 +286,7 @@
   </TimelineElement>
   -->
   <TimelineElement>
-    <strong>February 14, 2026 at 11:59 PM PT:</strong> Early Bird ($25/student) registration
+    <strong>February 21, 2026 at 11:59 PM PT:</strong> Early Bird ($25/student) registration
     deadline.
   </TimelineElement>
   <TimelineElement>
