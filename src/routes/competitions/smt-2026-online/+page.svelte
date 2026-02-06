@@ -223,17 +223,17 @@
         **Humanitix charges around $2.00 per student in service fees.
         <br />
         <br />
-        <b>Registration for SMT 2026 Online is not yet open. It will open in early February on <a href={formLink} target="_blank">COMP.mt</a>.</b>
+        <!-- <b>Registration for SMT 2026 Online is not yet open. It will open in late January on <a href={formLink} target="_blank">COMP.mt</a>.</b> -->
 
       </p>
       <!-- Uncomment this once applications are open -->
-      <!-- <HeaderButton
-        text="Apply for SMT"
+      <HeaderButton
+        text="Register for SMT Online!"
         href={formLink}
         newTab="true"
         isSmall
         centered
-      /> -->
+      />
     </div>
   </PanelBox>
 </div>
@@ -327,13 +327,13 @@
 
 
 <!-- This is OLD TEST INFORMATION, format for 2026 test information is different, so we commented it out -->
-<!-- <Heading text="Test Information" size={2.5} />
+ <Heading text="Test Information" size={2.5} />
 
 <div class="section-wrapper">
   <PanelBox>
     <FormattedTable data={testData} colStyles={testStyles} />
     <p>
-      The <strong>Power Round</strong> is a 80-minute exam focused on proof-writing.
+      The <strong>Power Round</strong> is a 50-minute exam focused on proof-writing.
       The content of the test focuses on a single subject matter that is usually
       significantly different from traditional competitive math problems.
     </p>
@@ -364,7 +364,7 @@
     </p>
   </PanelBox>
 </div>
-<br /> -->
+<br /> 
 
 <Heading text="Anti-Cheating Measures" size={2.5} />
 <div class="section-wrapper">
