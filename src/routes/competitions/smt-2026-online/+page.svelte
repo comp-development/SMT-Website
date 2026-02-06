@@ -271,7 +271,7 @@
 
 <Timeline width="60%">
   <TimelineElement>
-    <strong>Late January:</strong> Registration opens on
+    <strong>Early February:</strong> Registration opens on
     <a href={formLink} target="_blank">COMP.MT</a>
     <!-- <br /> -->
     <!-- <Link
@@ -286,7 +286,7 @@
   </TimelineElement>
   -->
   <TimelineElement>
-    <strong>February 7, 2026 at 11:59 PM PT:</strong> Early Bird ($25/student) registration
+    <strong>February 21, 2026 at 11:59 PM PT:</strong> Early Bird ($25/student) registration
     deadline.
   </TimelineElement>
   <TimelineElement>
