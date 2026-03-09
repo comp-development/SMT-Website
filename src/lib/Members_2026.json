@@ -414,31 +414,6 @@
         }
     },
     {
-        "displayname": "Abhi Gorle",
-        "pic1path": "SMT_red.png",
-        "bio": "Abhi is a graduate student studying electrical engineering. Outside of SMT, he enjoys food hopping, playing squash, going to concerts and is on a lifelong quest to find the best coffee.",
-        "first": "Abhiram",
-        "last": "Gorle",
-        "pic2path": "about-us-images/silly/Abhi_Gorle.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            
-        }
-    },
-    {
-        "displayname": "Vishrut Goyal",
-        "pic1path": "about-us-images/serious/Vishrut_Goyal.jpg",
-        "bio": "Vishrut is a freshmen studying math and computer science. Outside of SMT, he enjoys long walks near trees, dancing bhangra, cooking food, and eating food.",
-        "first": "Vishrut",
-        "last": "Goyal",
-        "pic2path": "about-us-images/silly/Vishrut_Goyal.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "td": "MEMBERS",
-            "org": "MEMBERS"
-        }
-    },
-    {
         "displayname": "Henri Greamo",
         "pic1path": "about-us-images/serious/Henri_Greamo.jpg",
         "bio": "Henri is a sophomore studying math. When he's not writing problems for SMT, he likes to dance, play the drums, and spend way too much time playing video games.",
