@@ -144,7 +144,7 @@
       'Power',
       "<i style='font-size:80%'>Team</i><br>Proof-Based",
       'TBD',
-      '80 min',
+      '50 min',
       '30%',
     ],
     [
@@ -358,7 +358,7 @@
     </p>
     <p>
       The <strong>Guts Round</strong> is an 80 minute live-scored team exam consisting
-      of 9 series of 3 questions each, whereby teams must submit answers to a previous
+      of 8 series of 4 questions each, whereby teams must submit answers to a previous
       round in order to gain access to the next. Subsequent rounds are both harder
       and worth more points than previous rounds.
     </p>

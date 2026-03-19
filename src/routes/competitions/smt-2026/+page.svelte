@@ -60,7 +60,7 @@
     ],
     [
       "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
-      '3:30 PM',
+      '4:00 PM',
       'Early Check-In',
       'Early Check-In',
       'Early Check-In',
@@ -69,7 +69,7 @@
     [
       "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
       '4:30 PM',
-      'Friday Activity TBD',
+      'Dunk SMT!',
       'Puzzle Hunt',
       'Stanford Tours',
       'Stanford Tours',
@@ -77,10 +77,10 @@
     [
       "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
       '6:00 PM',
-      'Friday Activity TBD',
+      'Knot Tying',
       'Puzzle Hunt',
-      'Friday Activity TBD',
-      'Friday Activity TBD',
+      'Origami Relay',
+      'Unstructured Time',
     ],
     [
       "<font style='font-size: 150%'>Friday Fun Functions [ƒ<sup>3</sup>]</font><br>4/17<br><i style='font-size: 80%'>Optional Social<br>Events</i>",
@@ -116,7 +116,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
-      '8:30 AM',
+      '8:50 AM',
       'Power Round',
       'Power Round',
       'Power Round',
@@ -125,7 +125,7 @@
   
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
-      '10:00 AM',
+      '10:10 AM',
       'Team Round',
       'Team Round',
       'Team Round',
@@ -133,7 +133,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
-      '11:00 AM',
+      '11:20 AM',
       'Lunch Break',
       'Lunch Break',
       'Lunch Break',
@@ -141,7 +141,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
-      '12:00 PM',
+      '12:30 PM',
       'Subject Test #1',
       'Subject Test #1',
       'General Test',
@@ -149,7 +149,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
-      '1:00 PM',
+      '1:40 PM',
       'Subject Test #2',
       'Subject Test #2',
       'General Test',
@@ -157,7 +157,7 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
-      '2:00 PM',
+      '3:20 PM',
       'Guts Round',
       'Guts Round',
       'Guts Round',
@@ -165,15 +165,15 @@
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
-      '4:00 PM',
-      'Saturday Activity TBD',
+      '4:40 PM',
+      'Guest Speaker',
       'Integration Bee Finals',
       'Saturday Activity TBD',
       'Unstructured Time',
     ],
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>4/18<br><i style='font-size: 80%'>Tournament Day</i>",
-      '5:30 PM',
+      '6:00 PM',
       'Awards',
       'Awards',
       'Awards',
@@ -409,7 +409,7 @@
     competition
   </TimelineElement>
   <TimelineElement>
-    <strong>March 9, 2026:</strong> Deadline for selected teams to register & confirm
+    <strong>March 13, 2026:</strong> Deadline for selected teams to register & confirm
     their spots
   </TimelineElement>
   <!--<TimelineElement>
@@ -419,6 +419,9 @@
         <strong>April 1, 2024:</strong> Deadline for student waiver submission.
     </TimelineElement>
 -->
+<TimelineElement>
+  <strong>April 3, 2026:</strong> Deadline for Editing Registration Information (Teams Frozen on COMP) 
+</TimelineElement>
   <TimelineElement>
     <strong>April 17, 2026:</strong> Optional Social Activities
   </TimelineElement>
