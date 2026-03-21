@@ -290,7 +290,7 @@
     deadline.
   </TimelineElement>
   <TimelineElement>
-    <strong>March 21, 2026 at 11:59 PM PT:</strong> Regular ($30/student) registration
+    <strong>March 24, 2026 at 11:59 PM PT:</strong> Regular ($30/student) registration
     deadline.
   </TimelineElement>
   <TimelineElement>
