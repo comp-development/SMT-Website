@@ -17,18 +17,18 @@
   const scheduleData = [
     ['Event', 'Time (PDT)', 'Students', 'Students', 'Students'],
     [
-      "<font style='font-size: 150%'>Activities</font><br><i>4/11</i>",
-      '10:00 AM',
-      'Puzzle Hunt',
-      'Puzzle Hunt',
-      'Puzzle Hunt',
+      "<font style='font-size: 150%'>Activities</font><br><i>TBD</i>",
+      'TBD',
+      'Puzzlehunt',
+      'Puzzlehunt',
+      'Puzzlehunt',
     ],
     [
-      "<font style='font-size: 150%'>Activities</font><br><i>4/11</i>",
-      '11:30 AM',
-      'Puzzle Hunt',
-      'Puzzle Hunt',
-      'Puzzle Hunt',
+      "<font style='font-size: 150%'>Activities</font><br><i>TBD</i>",
+      'TBD',
+      'Puzzlehunt',
+      'Puzzlehunt',
+      'Puzzlehunt',
     ],
     [
       "<font style='font-size: 150%'>Problem of the Day</font><br>4/13 - 4/17<br><i style='font-size: 80%'>Unique and challenging problems leading up to the tournament</i>",
@@ -299,7 +299,7 @@
     are frozen on COMP (our online test-taking software).
   </TimelineElement>
   <TimelineElement>
-    <strong>April 11, 2026:</strong> SMT Online Puzzle Hunt
+    <strong>TBD:</strong> SMT Online Puzzle Hunt
   </TimelineElement>
   <TimelineElement>
     <strong>April 19, 2026:</strong> SMT Online
