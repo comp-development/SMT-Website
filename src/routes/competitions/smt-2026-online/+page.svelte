@@ -67,7 +67,7 @@
     ],
     [
       "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
-      '9:00 AM',
+      '9:15 AM',
       'Opening Ceremony',
       'Opening Ceremony',
       'Opening Ceremony',
@@ -81,7 +81,7 @@
     ],
     [
       "<font style='font-size: 150%'>Tournament Day</font><br><i>4/19</i>",
-      '11:10 AM',
+      '11:00 AM',
       'Team Round',
       'Team Round',
       'Team Round',
