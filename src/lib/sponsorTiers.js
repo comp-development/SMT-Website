@@ -18,6 +18,11 @@ const sponsorTiers = [
         alt: 'Hudson River Trading',
         link: 'https://hudsonrivertrading.com/',
       },
+      {
+        url: 'sponsors/partners/jump.svg',
+        alt: 'Jump Trading',
+        link: 'https://jumptrading.com/',
+      }
     ],
   },
   {
