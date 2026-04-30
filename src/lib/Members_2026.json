@@ -559,6 +559,19 @@
         }
     },
     {
+        "displayname": "Daniel Li",
+        "pic1path": "about-us-images/serious/Daniel_Li.jpg",
+        "bio": "Daniel is a junior from Lincoln High School in Seattle. In his free time, he enjoys coding, playing basketball, and volunteering at the local food bank.",
+        "first": "Daniel",
+        "last": "Li",
+        "pic2path": "about-us-images/silly/Daniel_Li.jpg",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
         "displayname": "Jack Li",
         "pic1path": "about-us-images/serious/Jack_Li.jpg",
         "bio": "Jack is a frosh studying math. When he's not locked in, he enjoys rock climbing, spending time with friends, and trolling.",
