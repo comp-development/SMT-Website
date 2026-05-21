@@ -308,16 +308,23 @@
         request!) <br />
       </p>
       <div style="display: flex; gap: 16px; justify-content: center; align-items: center; margin: 10px 0;">
-        <HeaderButton
+        <!-- <HeaderButton
           text="Apply for SMT In-Person!"
           href={formLink}
           newTab="true"
           isSmall
-        />
-        <HeaderButton
+        /> -->
+        <!-- <HeaderButton
           text="Register for SMT Online!"
           href="/competitions/smt-2026-online"
           isSmall
+        />
+      </div> -->
+      <HeaderButton
+          text="SMT 2026 Results"
+          newTab="true"
+          href="https://docs.google.com/presentation/d/1MyWFwcPpL6R2_XEVaPg0MAiyhG4ChPsIxYtcoq2h8aM/edit?usp=sharing"
+          
         />
       </div>
 
