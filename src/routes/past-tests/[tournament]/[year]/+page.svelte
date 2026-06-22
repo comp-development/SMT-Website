@@ -7,6 +7,7 @@
 
   const supportedYears = {
     "SMT" : [2011, 2012, 2013, 2014, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 ],
+    "ASMT": [2015, 2016 ],
     "SM3" : [2025]
   }
 
@@ -39,7 +40,7 @@
     }
 
     //Specifically if we want to upload files other than pdf.  Prolly better solutions exist, but \shrug
-    let fileextension_overrides = {   
+    let fileextension_overrides = {
       SM3tests2025 : {
         //Eg. in this case I just want to send people to a google drive link with puzzle hunt solutions
         PuzzleHunt : {
@@ -54,7 +55,7 @@
     }
 
     let rounds = {
-      SMTtests2025: [ 
+      SMTtests2025: [
         "Algebra",
         "Calculus",
         "Discrete",
@@ -66,7 +67,7 @@
         "Team",
       ],
       SM3tests2025: [
-        'Treelay', 
+        'Treelay',
         'Origami',
         'Construction',
         'PuzzleHunt',
@@ -183,6 +184,26 @@
         'Advanced',
         'Geometry',
         'General',
+        'Power',
+      ],
+      ASMTtb2015: ['Advanced', 'Algebra', 'Calculus', 'Geometry', 'General'],
+      ASMTtests2015: [
+        'Advanced',
+        'Algebra',
+        'Calculus',
+        'Geometry',
+        'General',
+        'Team',
+        'Power',
+      ],
+      ASMTtb2016: ['Algebra', 'Calculus', 'Discrete', 'Geometry', 'General'],
+      ASMTtests2016: [
+        'Algebra',
+        'Calculus',
+        'Discrete',
+        'Geometry',
+        'General',
+        'Guts',
         'Power',
       ],
       // arpit: continue filling it out in this format
