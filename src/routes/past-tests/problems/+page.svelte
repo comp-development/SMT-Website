@@ -26,7 +26,7 @@
 <div style="min-height: 100vh">
   <Heading text="Past Tournaments" size={4} textColor="var(--heading-color)" />
   <Heading text="SMT" size={2} textColor="var(--heading-color)" />
-  <!-- <Heading text="SMT is our annual tournament for high school students." size={1} textColor="var(--heading-color)" /> -->
+  <Heading text="SMT is our annual tournament for high school students." size={1} textColor="var(--heading-color)" />
   <div class="flex" style="max-width: 100vw;">
     <PanelBox>
       <div
