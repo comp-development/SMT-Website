@@ -26,6 +26,7 @@
 <div style="min-height: 100vh">
   <Heading text="Past Tournaments" size={4} textColor="var(--heading-color)" />
   <Heading text="SMT" size={2} textColor="var(--heading-color)" />
+  <Heading text="SMT is our annual tournament for high school students." size={1} textColor="var(--heading-color)" />
   <div class="flex" style="max-width: 100vw;">
     <PanelBox>
       <div
@@ -42,8 +43,26 @@
       </div>
     </PanelBox>
   </div>
-
+  <Heading text="ASMT" size={2} textColor="var(--heading-color)" />
+  <Heading text="In 2015 and 2016, SMT was held offsite and sponsored by AlphaStar Academy." size={1} textColor="var(--heading-color)" />
+  <div class="flex" style="max-width: 100vw;">
+    <PanelBox>
+      <div
+        class="flex"
+        style="flex-direction: row; flex-basis: 0; flex-wrap: wrap;"
+      >
+        {#each yearLinks as link}
+          {#if link.tournament == "ASMT"}
+            <div class="year-link">
+              <a href={link.url}>{link.year}</a>
+            </div>
+          {/if}
+        {/each}
+      </div>
+    </PanelBox>
+  </div>
   <Heading text="SM3" size={2} textColor="var(--heading-color)" />
+  <Heading text="SM3 began in 2025 as a math event for middle school students." size={1} textColor="var(--heading-color)" />
   <div class="flex" style="max-width: 100vw;">
     <PanelBox>
       <div

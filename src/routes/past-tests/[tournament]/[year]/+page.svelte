@@ -34,8 +34,8 @@
     function getTBRow(round) {
       return [
         round,
-        `/pdfs/smt${year}/${round.toLowerCase()}-tiebreaker-problems.pdf`,
-        `/pdfs/smt${year}/${round.toLowerCase()}-tiebreaker-solutions.pdf`,
+        `/pdfs/${tournament.toLowerCase()}${year}/${round.toLowerCase()}-tiebreaker-problems.pdf`,
+        `/pdfs/${tournament.toLowerCase()}${year}/${round.toLowerCase()}-tiebreaker-solutions.pdf`,
       ]
     }
 
