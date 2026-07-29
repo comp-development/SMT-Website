@@ -5,7 +5,7 @@
 <script>
   import FlexBox from '$lib/components/FlexBox.svelte'
   import Person from '$lib/components/Person.svelte'
-  import Members from '$lib/Members_2026.json'
+  import Members from '$lib/Members_2027.json'
   import Titles from '$lib/Titles.json'
   import Heading from '$lib/components/Heading.svelte'
   import Tabs from '$lib/components/Tabs.svelte'
