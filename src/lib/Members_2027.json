@@ -1,0 +1,817 @@
+[
+    {
+        "displayname": "Ishani Agarwal",
+        "pic1path": "about-us-images/serious/Ishani_Agarwal.jpg",
+        "bio": "Ishani is a freshman studying math and computer science. Outside of SMT problem writing, she enjoys baking, playing board games, and playing pickleball.",
+        "first": "Ishani",
+        "last": "Agarwal",
+        "pic2path": "about-us-images/silly/Ishani_Agarwal.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Anish Anne",
+        "pic1path": "about-us-images/serious/Anish_Anne.jpg",
+        "bio": "Anish is a sophomore studying computer science. If he's not at SMT, he's probably praticing lock picking, driving a race car, or drinking boba.",
+        "first": "Anish",
+        "last": "Anne",
+        "pic2path": "about-us-images/silly/Anish_Anne.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Adam Banks",
+        "pic1path": "about-us-images/serious/Adam_Banks.jpg",
+        "bio": "Adam is a frosh (that means freshman in Stanford slang btw) studying math and computer science. While not studying or problem writing, he is probably playing ping pong, pool or coding video games :))",
+        "first": "Adam",
+        "last": "Banks",
+        "pic2path": "about-us-images/silly/Adam_Banks.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Nancy Bao",
+        "pic1path": "about-us-images/serious/Nancy_Bao.jpg",
+        "bio": "Nancy is a freshman studying math and computer science. If she's not studying, she's probably riding or fixing her bike.",
+        "first": "Nancy",
+        "last": "Bao",
+        "pic2path": "about-us-images/silly/Nancy_Bao.jpg",
+        "leadstatus": "current-lead",
+        "positions": {
+            "td": "DIRECTOR",
+            "t":"DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Sophia Barnes",
+        "pic1path": "about-us-images/serious/Sophia_Barnes.jpg",
+        "bio": "Sophia is a senior studying math and computer science. Beyond SMT, she likes playing bass and hiking in her free time.",
+        "first": "Sophia",
+        "last": "Barnes",
+        "pic2path": "about-us-images/silly/Sophia_Barnes.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Damian Burgess",
+        "pic1path": "about-us-images/serious/Damian_Burgess.jpg",
+        "bio": "Damian B is a freshman studying mathematics and physics. Outside of problem writing for SMT, he likes to play the clarinet, grind analysis psets, hike, and lose at ping-pong to dormmates.",
+        "first": "Damian",
+        "last": "Burgess",
+        "pic2path": "about-us-images/silly/Damian_Burgess.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "pw": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Blake Chang",
+        "pic1path": "about-us-images/serious/Blake_Chang.jpg",
+        "bio": "Blake is a sophomore studying math with a side of cs and chem/physics.  Outside of SMT, he enjoys volunteering his time away, playing tennis and piano, spending a degenerate amount of time on Tetris, and gardening at Roble.",
+        "first": "Blake",
+        "last": "Chang",
+        "pic2path": "about-us-images/silly/Blake_Chang.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "t": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Elana Chen",
+        "pic1path": "about-us-images/serious/Elana_Chen.jpg",
+        "bio": "Elana is a sophomore studying cs and math. Outside of typing away and falling asleep on her laptop 💤, she likes to roam around nyc, watch chinese dramas, do lil crafts, and iceskate.",
+        "first": "Elana",
+        "last": "Chen",
+        "pic2path": "about-us-images/silly/Elana_Chen.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Hugh Cheng",
+        "pic1path": "about-us-images/serious/Hugh_Cheng.jpg",
+        "bio": "Hugh is a freshman interested in math. In his free time, he enjoys playing saxophone, practicing the sacred art of Minesweeper, and writing 2-3 short sentences about himself.",
+        "first": "Hugh",
+        "last": "Cheng",
+        "pic2path": "about-us-images/silly/Hugh_Cheng.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Nacho Cho",
+        "pic1path": "about-us-images/serious/Nacho_Cho.jpg",
+        "bio": "Nacho is a sophomore studying math and computer science. When he's not writing problems or helping with SMT logistics, you can usually find him solving puzzles or falling off his electric skateboard.",
+        "first": "Nacho",
+        "last": "Cho",
+        "pic2path": "about-us-images/silly/Nacho_Cho.jpg",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Francis Chua",
+        "pic1path": "about-us-images/serious/Francis_Chua.jpg",
+        "bio": "Francis is a junior in math and computer science. He enjoys playing oboe and english horn in orchestra, scrolling Github's trending page, and looking at the flowers on Stanford's campus. He is an avid proponent of Typst (look it up) and occasionally runs the Dish.",
+        "first": "Francis",
+        "last": "Chua",
+        "pic2path": "about-us-images/silly/Francis_Chua.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Jacob Chung",
+        "pic1path": "about-us-images/serious/Jacob_Chung.jpg",
+        "bio": "Jacob is a freshmen studying math and physics. His favorite things to do other than writing SMT problems are meeting new people, biking/walking around campus listening to music, or both.",
+        "first": "Jacob",
+        "last": "Chung",
+        "pic2path": "about-us-images/silly/Jacob_Chung.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Katarina Costa",
+        "pic1path": "about-us-images/serious/Katarina_Costa.jpg",
+        "bio": "Kat is a junior majoring in math.  Outside of being the financial officer for SUMO and SMT, she enjoys spending time with her dog and being a cheerleader.",
+        "first": "Katarina",
+        "last": "Costa",
+        "pic2path": "about-us-images/silly/Katarina_Costa.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+      "displayname": "Ana Lucia Elices",
+      "pic1path": "about-us-images/serious/Ana_Lucia.jpg",
+      "bio": "Ana Lucia is a sophomore studying mathematics. Outside of SMT logistics, she enjoys reading, finding new hikes, and writing lengthy book reviews.",
+      "first": "Ana Lucia",
+      "last": "Elices",
+      "pic2path": "about-us-images/silly/Ana_Lucia.png",
+      "leadstatus": "non-lead",
+      "positions": {
+          "td": "MEMBERS",
+          "org": "MEMBERS"
+      }
+    },
+    {
+        "displayname": "Dylan Frake",
+        "pic1path": "about-us-images/serious/Dylan_Frake.jpg",
+        "bio": "Dylan is a frosh studying math. Outside of writing problems, he loves singing, epic outdoor adventures, chess, and losing money in poker.",
+        "first": "Dylan",
+        "last": "Frake",
+        "pic2path": "about-us-images/silly/Dylan_Frake.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Abigail Fu",
+        "pic1path": "about-us-images/serious/Abigail_Fu.jpg",
+        "bio": "Abigail is a sophomore studying economics and symbolic systems. In her free time, she loves playing Overcooked, watching movies, and baking!",
+        "first": "Abigail",
+        "last": "Fu",
+        "pic2path": "about-us-images/silly/Abigail_Fu.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "td": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Emma Gao",
+        "pic1path": "about-us-images/serious/Emma_Gao.jpg",
+        "bio": "Emma is a freshman studying math and computer science. Outside of SMT, she enjoys playing tennis, going on hikes, and watching historical TV shows.",
+        "first": "Emma",
+        "last": "Gao",
+        "pic2path": "about-us-images/silly/Emma_Gao.jpg",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Eric Gao",
+        "pic1path": "about-us-images/serious/Eric_Gao.jpg",
+        "bio": "Eric is a senior studying math and economics and coterming in management science & engineering. Other than writing entire power rounds over winter break, Eric enjoys chess, climbing, and anime.",
+        "first": "Eric",
+        "last": "Gao",
+        "pic2path": "about-us-images/silly/Eric_Gao.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Kendall Gee",
+        "pic1path": "about-us-images/serious/Kendall_Gee.jpg",
+        "bio": "Kendall is a sophomore studying computer science and international relations. In her free time, she enjoys ranking new food spots on Beli, planning vacation itineraries, and solving escape rooms.",
+        "first": "Kendall",
+        "last": "Gee",
+        "pic2path": "about-us-images/silly/Kendall_Gee.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "td": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Demira Georgieva Nedeva",
+        "pic1path": "about-us-images/serious/Demira_Nedeva.jpg",
+        "bio": "Demira is a freshman studying math and statistics. Outside of problems writing, she enjoys playing mafia, going to raves and song writing.",
+        "first": "Demira",
+        "last": "Georgieva Nedeva",
+        "pic2path": "about-us-images/silly/Demira_Nedeva.jpeg",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Paul Gontard",
+        "pic1path": "about-us-images/serious/Paul_Gontard.jpg",
+        "bio": "Paul is a sophomore studying physics, math, and translation studies/art practice. In addition to leading design for SMT, in free moments he can be found perched behind a sketchpad or with his nose in a book.",
+        "first": "Paul",
+        "last": "Gontard",
+        "pic2path": "about-us-images/silly/Paul_Gontard.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Henri Greamo",
+        "pic1path": "about-us-images/serious/Henri_Greamo.jpg",
+        "bio": "Henri is a sophomore studying math. When he's not writing problems for SMT, he likes to dance, play the drums, and spend way too much time playing video games.",
+        "first": "Henri",
+        "last": "Greamo",
+        "pic2path": "about-us-images/silly/Henri_Greamo.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Ellie Greyson",
+        "pic1path": "about-us-images/serious/Ellie_Greyson.jpg",
+        "bio": "Ellie is a senior studying math and political science. Outside of SMT, she enjoys doing origami, playing violin, dancing, and hiking in her free time.",
+        "first": "Eleanor",
+        "last": "Greyson",
+        "pic2path": "about-us-images/silly/Ellie_Greyson.png",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Jacqueline Huang",
+        "pic1path": "about-us-images/serious/Jacqueline_Huang.jpg",
+        "bio": "Jacqueline is a freshman studying physics. She enjoys hiking, reading, and biking around campus in her free time.",
+        "first": "Jacqueline",
+        "last": "Huang",
+        "pic2path": "about-us-images/silly/Jacqueline_Huang.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "pw": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Viktor Imrisek",
+        "pic1path": "about-us-images/serious/Viktor_Imrisek.jpg",
+        "bio": "Viktor is a sophomore studying bioengineering and math. Besides coordinating problem writers, he enjoys jiujitsu and all other sports.",
+        "first": "Viktor",
+        "last": "Imrisek",
+        "pic2path": "about-us-images/silly/Viktor_Imrisek.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Leo Ji",
+        "pic1path": "about-us-images/serious/Leo_Ji.jpg",
+        "bio": "Leo is a freshman studying math and computer science. He enjoys board games, hiking, watching soccer, and playing guitar in his free time.",
+        "first": "Changxiu",
+        "last": "Ji",
+        "pic2path": "about-us-images/silly/Leo_Ji.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Nishka Kacheria",
+        "pic1path": "about-us-images/serious/Nishka_Kacheria.jpg",
+        "bio": "Nishka is a freshman studying math and computer science. Outside of the tech team, she enjoys solving puzzles and being puzzled by preposterous problems. She also likes hiking and reading mysteries!",
+        "first": "Nishka",
+        "last": "Kacheria",
+        "pic2path": "about-us-images/silly/Nishka_Kacheria.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "td":"MEMBERS",
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Victor Kolev",
+        "pic1path": "about-us-images/serious/Victor_Kolev.jpg",
+        "bio": "Victor is a senior in math and cs, and is working toward his master in statistics. He is a retired lead of SMT but still likes to hangs out with our cool and fun team. In his free time he is usually found making coffee.",
+        "first": "Victor",
+        "last": "Kolev",
+        "pic2path": "about-us-images/silly/Victor_Kolev.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Anastasia Lee",
+        "pic1path": "about-us-images/serious/Anastasia_Lee.jpg",
+        "bio": "Anastasia is a freshman studying computer science and economics (but she also loves math). When she's not locked in on a pset or debugging her code, she enjoys playing the piano, learning strategic card games, and a cappella singing.",
+        "first": "Anastasia",
+        "last": "Lee",
+        "pic2path": "about-us-images/silly/Anastasia_Lee.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Justin Lee",
+        "pic1path": "about-us-images/serious/Justin_Lee.jpg",
+        "bio": "Justin is a sophomore studying bioengineering. Outside of SMT tech and logistics, he enjoys staying up way too late, playing racket sports, drinking boba, ranking new restaurants on Beli, and going to concerts.",
+        "first": "Justin",
+        "last": "Lee",
+        "pic2path": "about-us-images/silly/Justin_Lee.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "td": "DIRECTOR",
+            "t": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Daniel Li",
+        "pic1path": "about-us-images/serious/Daniel_Li.jpg",
+        "bio": "Daniel is a junior from Lincoln High School in Seattle. In his free time, he enjoys coding, playing basketball, and volunteering at the local food bank.",
+        "first": "Daniel",
+        "last": "Li",
+        "pic2path": "about-us-images/silly/Daniel_Li.jpg",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Jack Li",
+        "pic1path": "about-us-images/serious/Jack_Li.jpg",
+        "bio": "Jack is a frosh studying math. When he's not locked in, he enjoys rock climbing, spending time with friends, and trolling.",
+        "first": "Jack",
+        "last": "Li",
+        "pic2path": "about-us-images/silly/Jack_Li.jpg",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Sophia Li",
+        "pic1path": "about-us-images/serious/Sophia_Li.jpg",
+        "bio": "Sophia is a freshman studying computer science and math. Besides SMT tech, she enjoys hiking, card games (no-stakes gambling), occasionally practicing piano, and yapping.",
+        "first": "Sophia",
+        "last": "Li",
+        "pic2path": "about-us-images/silly/Sophia_Li.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Jay Li",
+        "pic1path": "about-us-images/serious/Jay_Li.jpg",
+        "bio": "Jay is a Sophomore in Math. Outside of being problematic, he likes board games (chess), anime, and learning about the world",
+        "first": "Weijie",
+        "last": "Li",
+        "pic2path": "about-us-images/silly/Jay_Li.jpg",
+        "leadstatus": "current-lead",
+        "positions": {
+            "pw": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Kyleen Liao",
+        "pic1path": "about-us-images/serious/Kyleen_Liao.jpg",
+        "bio": "Kyleen is a sophomore studying computer science. Outside of SMT tech, she enjoys drinking tea, listening to music, and hiking.",
+        "first": "Kyleen",
+        "last": "Liao",
+        "pic2path": "about-us-images/silly/Kyleen_Liao.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Oliver Lippard",
+        "pic1path": "about-us-images/serious/Oliver_Lippard.jpg",
+        "bio": "Oliver is a freshman studying math and data science. When forced to not obsess over math, he likes to read, cook for the Breakfast Club, and play ultimate frisbee and basketball.",
+        "first": "Oliver",
+        "last": "Lippard",
+        "pic2path": "about-us-images/silly/Oliver_Lippard.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Bhushan Mohanraj",
+        "pic1path": "about-us-images/serious/Bhushan_Mohanraj.jpg",
+        "bio": "Bhushan is a sophomore studying computer engineering. Outside of problem writing, he loves hikes and nighttime walks, jogging and soccer, and programming.",
+        "first": "Bhushan",
+        "last": "Mohanraj",
+        "pic2path": "about-us-images/silly/Bhushan_Mohanraj.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Dillon Nguyen",
+        "pic1path": "about-us-images/serious/Dillon_Nguyen.jpg",
+        "bio": "Dillon is a sophomore studying math and computer science. Outside of developing for SMT tech, he enjoys climbing, playing tennis, and playing piano.",
+        "first": "Dillon",
+        "last": "Nguyen",
+        "pic2path": "about-us-images/silly/Dillon_Nguyen.jpg",
+        "leadstatus": "current-lead",
+        "positions": {
+            "td":"DIRECTOR",
+            "t": "MEMBERS",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Nish Paruchuri",
+        "pic1path": "about-us-images/serious/Nish_Paruchuri.jpg",
+        "bio": "Nish is a Masters student studying computer science. Outside of problem writing and tech, he likes hiking, trying new food, and playing basketball.",
+        "first": "Nishikar",
+        "last": "Paruchuri",
+        "pic2path": "about-us-images/silly/Nish_Paruchuri.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Ravi Raj Deshpande",
+        "pic1path": "about-us-images/serious/Ravi_Deshpande.jpg",
+        "bio": "Ravi is a freshman studying math and biology. When he isn't devising devious problems, he loves singing, reading, playing tennis, and building legos!",
+        "first": "Ravi",
+        "last": "Raj Deshpande",
+        "pic2path": "about-us-images/silly/Ravi_Deshpande.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "pw": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Arpit Ranasaria",
+        "pic1path": "about-us-images/serious/Arpit_Ranasaria.jpg",
+        "bio": "Arpit is a coterm student studying Computer Science. Outside of SMT, Arpit doesn't do anything because he's addicted to running math tournaments.",
+        "first": "Arpit",
+        "last": "Ranasaria",
+        "pic2path": "about-us-images/silly/Arpit_Ranasaria.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "td": "MEMBERS",
+            "t": "MEMBERS",
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Neil Rathi",
+        "pic1path": "about-us-images/serious/Neil_Rathi.jpg",
+        "bio": "Neil is a senior studying math, classics, Arabic, and computer science. Outside of causing commotion during SMT meetings, he likes going to the beach and rewatching movies (often both at the same time).",
+        "first": "Neil",
+        "last": "Rathi",
+        "pic2path": "about-us-images/silly/Neil_Rathi.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Sophia Rong",
+        "pic1path": "about-us-images/serious/Sophia_Rong.jpg",
+        "bio": "Sophia is a freshman studying computer science and statistics. Outside of SMT, she's often swimming, trying new cafes, or losing money in poker.",
+        "first": "Sophia",
+        "last": "Rong",
+        "pic2path": "about-us-images/silly/Sophia_Rong.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "td": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Jack Shi",
+        "pic1path": "about-us-images/serious/Jack_Shi.jpg",
+        "bio": "Jack is a frosh studying computer science and mathematics. When he's not cooking up code for SMT tech, he enjoys hiking, drinking boba, and forgetting to do his psets.",
+        "first": "Jack",
+        "last": "Shi",
+        "pic2path": "about-us-images/silly/Jack_Shi.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Jessica Su",
+        "pic1path": "about-us-images/serious/Jessica_Su.jpg",
+        "bio": "Jessica is a sophomore studying cs and east asian studies. When she's outside of SMT, she's probably staying up late watching anime, drawing fanarts, playing some random games, or on here way to some weird places.",
+        "first": "Wen",
+        "last": "Su",
+        "pic2path": "about-us-images/silly/Jessica_Su.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "td": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Kiran Sun",
+        "pic1path": "about-us-images/serious/Kiran_Sun.jpg",
+        "bio": "Kiran is a sophomore interested in philosophy {as, of, and} literature and math. His recent obsessions include Outer Wilds, Malazan, Magdalena Bay, port superiority, bloonless tower defense, and collecting giant plushies!",
+        "first": "Kiran",
+        "last": "Sun",
+        "pic2path": "about-us-images/silly/Kiran_Sun.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "td": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Piper Walls",
+        "pic1path": "about-us-images/serious/Piper_Walls.jpg",
+        "bio": "Piper is a sophmore studying psychology and education! Outside of SMT logistics, she enjoys watching her fish swim through hoops, anything outdoorsy, collaging, and making hot chocolate.",
+        "first": "Piper",
+        "last": "Walls",
+        "pic2path": "about-us-images/silly/Piper_Walls.png",
+        "leadstatus": "past-lead",
+        "positions": {
+            "td": "MEMBERS",
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+      "displayname": "William Wang",
+      "pic1path": "about-us-images/serious/William_Chi_Wang.jpg",
+      "bio": "William is a sophomore interested in math and physics. When he's not writing egregious problems, you can find him playing percussion and failing at GeoGuessr.",
+      "first": "William",
+      "last": "Wang",
+      "pic2path": "about-us-images/silly/William_Chi_Wang.jpg",
+      "leadstatus": "past-lead",
+      "positions": {
+        "pw": "MEMBERS",
+        "org": "LEADERSHIP_EMERITUS"
+      }
+    },
+    {
+        "displayname": "Calista Woo",
+        "pic1path": "about-us-images/serious/Calista_Woo.jpg",
+        "bio": "Calista is a freshman studying computer science. Outside of SMT, she's usually trying to cut down on caffeine, napping on couches, and thinking about that clownfish stuffed animal she really should have bought when she was in Japan.",
+        "first": "Calista",
+        "last": "Woo",
+        "pic2path": "about-us-images/silly/Calista_Woo.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "td": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Julia Xi",
+        "pic1path": "about-us-images/serious/Julia_Xi.jpg",
+        "bio": "Julia is a sophomore studying CS and statistics. When she's not locked in, she's playing minesweeper in a tree, consuming too much seltzer water and pepperoni, or collecting all things Pompompurin.",
+        "first": "Julia",
+        "last": "Xi",
+        "pic2path": "about-us-images/silly/Julia_Xi.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Olivia Xu",
+        "pic1path": "about-us-images/serious/Olivia_Xu.jpg",
+        "bio": "Olivia is a sophomore studying math. She loves going on long walks, trying new sports, and snacking on fruit.",
+        "first": "Olivia",
+        "last": "Xu",
+        "pic2path": "about-us-images/silly/Olivia_Xu.jpg",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Phoebe Xu",
+        "pic1path": "about-us-images/serious/Phoebe_Xu.jpg",
+        "bio": "Phoebe is a freshman interested in studying applied math. Outside of SMT, she enjoys reading novels, going on hikes, and logging movies on Letterboxd.",
+        "first": "Phoebe",
+        "last": "Xu",
+        "pic2path": "about-us-images/silly/Phoebe_Xu.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "td": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Andrew Xuan",
+        "pic1path": "about-us-images/serious/Andrew_Xuan.jpg",
+        "bio": "Andrew is a freshman studying Aeronautical and Astronautical Engineering. Outside of SMT Problem Writing, he performs in orchestra, volunteers in the Civil Air Patrol, and enjoys learning to fly.",
+        "first": "Andrew",
+        "last": "Xuan",
+        "pic2path": "about-us-images/silly/Andrew_Xuan.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "td":"DIRECTOR",
+            "pw": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Max Yan",
+        "pic1path": "about-us-images/serious/Max_Yan.jpg",
+        "bio": "Max is a freshman studying math and (maybe) computer science. Besides writing problems for SMT, he likes to boulder, try new foods, and garden with native plants (touch grass).",
+        "first": "Max",
+        "last": "Yan",
+        "pic2path": "about-us-images/silly/Max_Yan.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "pw": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Nick Yan",
+        "pic1path": "about-us-images/serious/Nick_Yan.jpg",
+        "bio": "Nick is a frosh interested in computer science. When he's not writing problems, he likes to produce music, play rhythm games, and go running.",
+        "first": "Nick",
+        "last": "Yan",
+        "pic2path": "about-us-images/silly/Nick_Yan.jpg",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Meiting Yang",
+        "pic1path": "about-us-images/serious/Meiting_Yang.jpg",
+        "bio": "Meiting is a frosh studying math and computer science. Outside of SMT, she likes to travel, play board games, and catch up on much-needed sleep.",
+        "first": "Meiting",
+        "last": "Yang",
+        "pic2path": "about-us-images/silly/Meiting_Yang.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Raina Yang",
+        "pic1path": "about-us-images/serious/Raina_Yang.jpg",
+        "bio": "Raina is a sophomore studying EE & TAPS. If you don't see her sorting out SMT logistics she is probably either trying and failing to run DMX cables through an ETC Source 4 on the third electric of Memaud or carving wooden fish with the new CNC router in the TAPS lower shop.",
+        "first": "Ruogu",
+        "last": "Yang",
+        "pic2path": "about-us-images/silly/Raina_Yang.jpg",
+        "leadstatus": "current-lead",
+        "positions": {
+            "td": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Sabrina Yen-Ko",
+        "pic1path": "about-us-images/serious/Sabrina_Yen-Ko.jpg",
+        "bio": "Sabrina is a sophomore studying computer science. Outside of SMT, she loves playing board games, exploring the Stanford makerspaces, going to concerts, and finding new places to rank on Beli 😋.",
+        "first": "Sabrina",
+        "last": "Yen-Ko",
+        "pic2path": "about-us-images/silly/Sabrina_Yen-Ko.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "t": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Kieran Yu",
+        "pic1path": "about-us-images/serious/Kieran_Yu.jpg",
+        "bio": "Kieran was a problem writing lead for SMT from 2021 to 2024. His favorite subject to write is geometry! In his spare time, Kieran likes to practice the violin.",
+        "first": "Kieran",
+        "last": "Yu",
+        "pic2path": "SMT_red.png",
+        "leadstatus": "past-lead",
+        "positions": {
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Ethan Zhang",
+        "pic1path": "about-us-images/serious/Ethan_Zhang.jpg",
+        "bio": "Ethan is a Senior studying math and computer science. When he is not coordinating problems, he is probably playing board games, hiking, or cooking (fried rice 😋).",
+        "first": "Ethan",
+        "last": "Zhang",
+        "pic2path": "about-us-images/silly/Ethan_Zhang.jpg",
+        "leadstatus": "past-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "LEADERSHIP_EMERITUS"
+        }
+    },
+    {
+        "displayname": "Kaka Zhang",
+        "pic1path": "about-us-images/serious/Kaka_Zhang.jpg",
+        "bio": "Kaka is a Frosh studying math and computer science. Outside of math (number theory), he loves playing card games like Poker, Fish, Tractor, Hearts, and more.",
+        "first": "Yueqian",
+        "last": "Zhang",
+        "pic2path": "about-us-images/silly/Kaka_Zhang.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    },
+    {
+        "displayname": "Eric Zhu",
+        "pic1path": "about-us-images/serious/Eric_Zhu.jpg",
+        "bio": "Eric is a freshman studying math and biology. In his free time, he's either playing the guitar, going on bike rides, or having conversations with friends.",
+        "first": "Eric",
+        "last": "Zhu",
+        "pic2path": "about-us-images/silly/Eric_Zhu.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "td": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
+        "displayname": "Lily Zou",
+        "pic1path": "about-us-images/serious/Lily_Zou.jpg",
+        "bio": "Lily is a freshman considering math among a number of fields. In her free time, she enjoys hiking, dancing ballet and ballroom, playing the violin, writing, reading, and despairing about how long the to-read list is while gleefully adding to it.",
+        "first": "Lily",
+        "last": "Zou",
+        "pic2path": "about-us-images/silly/Lily_Zou.png",
+        "leadstatus": "non-lead",
+        "positions": {
+            "pw": "MEMBERS",
+            "org": "MEMBERS"
+        }
+    }
+]
