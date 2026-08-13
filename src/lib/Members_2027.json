@@ -476,6 +476,19 @@
         }
     },
     {
+        "displayname": "Ritwin Narra",
+        "pic1path": "about-us-images/serious/Ritwin_Narra.jpg",
+        "bio": " ",
+        "first": "Ritwin",
+        "last": "Narra",
+        "pic2path": "about-us-images/silly/Ritwin_Narra.png",
+        "leadstatus": "current-lead",
+        "positions": {
+            "pw": "DIRECTOR",
+            "org": "LEADERSHIP"
+        }
+    },
+    {
         "displayname": "Dillon Nguyen",
         "pic1path": "about-us-images/serious/Dillon_Nguyen.jpg",
         "bio": "Dillon is a sophomore studying math and computer science. Outside of developing for SMT tech, he enjoys climbing, playing tennis, and playing piano.",
