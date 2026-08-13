@@ -45,7 +45,7 @@
           text: 'SMT 2026 Online',
         },
       ],
-    }, {path: '/sm3', text: 'Middle School (SM3)', hasSubPages: false}, {path:'/puzzlehunt', text: 'Puzzlehunt', hasSubPages: false},
+    }, {path: '/competitions/sm3-2026', text: 'SM3 2026', hasSubPages: false}, {path:'/puzzlehunt', text: 'Puzzlehunt', hasSubPages: false},
     { path: '/our-team', text: 'Our Team', hasSubPages: false },
     { path: '/rules', text: 'Rules', hasSubPages: false },
     { path: '/partners', text: 'Partners', hasSubPages: false },
