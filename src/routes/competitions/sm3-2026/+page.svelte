@@ -201,7 +201,7 @@
 </div>
 <br />
 -->
-<Heading text="Registration Timeline" size={2.5} /> -->
+<Heading text="Registration Timeline" size={2.5} /> 
 
 <Timeline width="60%">
   <TimelineElement>
