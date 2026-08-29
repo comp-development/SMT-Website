@@ -35,18 +35,18 @@
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>11/7<br><i style='font-size: 80%'>Tournament Day</i>",
       '10:15 AM',
-      'Treelay Round',
-      'Treelay Round',
-      'Treelay Round',
+      'Bingo Round',
+      'Bingo Round',
+      'Bingo Round',
       'Scoreboard Viewing / Unstructured Time',
     ], 
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>11/7<br><i style='font-size: 80%'>Tournament Day</i>",
       '11:30 AM',
-      'Second Round',
-      'Second Round',
-      'Second Round',
-      'Unstructured Time',
+      'Hiddem Gems',
+      'Hidden Gems',
+      'Hidden Gems',
+      'Campus Tours',
     ],
   
     [
@@ -161,7 +161,7 @@
       <h4>Open Registration</h4>
       <p>
         Open registration begins on 
-        <b>Monday, September 28th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list. 
+        <b>Monday, September 28th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list and posted on this webpage. 
         It will be first-come, first-serve. There will also be a waitlist. On Tuesday, October 20th, teams will be informed of their registration status 
         and sent further payment instructions if necessary.
       </p>
@@ -176,15 +176,15 @@
           made by SMT are final and non-negotiable.</i
         >
       </p>
-      <p style="font-size: 0.8em;"><i>Last updated on 8/12/2026</i></p>
+      <p style="font-size: 0.8em;"><i>Last updated on 8/29/2026</i></p>
     </div>
-    <HeaderButton
+    <!-- <HeaderButton
         text="Open Registration Form"
         href={"https://forms.gle/8TCVsQ8pPbWsVwmi8"}
         newTab="true"
         isSmall
         centered
-      />
+      /> -->
   </PanelBox>
 </div>
 <br />
