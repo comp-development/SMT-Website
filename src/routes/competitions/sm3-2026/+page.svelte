@@ -35,18 +35,18 @@
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>11/7<br><i style='font-size: 80%'>Tournament Day</i>",
       '10:15 AM',
-      'Treelay Round',
-      'Treelay Round',
-      'Treelay Round',
+      'Bingo Round',
+      'Bingo Round',
+      'Bingo Round',
       'Scoreboard Viewing / Unstructured Time',
     ], 
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>11/7<br><i style='font-size: 80%'>Tournament Day</i>",
       '11:30 AM',
-      'Second Round',
-      'Second Round',
-      'Second Round',
-      'Unstructured Time',
+      'Hiddem Gems',
+      'Hidden Gems',
+      'Hidden Gems',
+      'Campus Tours',
     ],
   
     [
@@ -161,7 +161,7 @@
       <h4>Open Registration</h4>
       <p>
         Open registration begins on 
-        <b>Monday, September 28th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list. 
+        <b>Monday, September 28th</b> at 10 am Pacific. At this time, a registration form will be sent out to the SMT mailing list and posted on this webpage. 
         It will be first-come, first-serve. There will also be a waitlist. On Tuesday, October 20th, teams will be informed of their registration status 
         and sent further payment instructions if necessary.
       </p>
@@ -176,15 +176,15 @@
           made by SMT are final and non-negotiable.</i
         >
       </p>
-      <p style="font-size: 0.8em;"><i>Last updated on 8/12/2026</i></p>
+      <p style="font-size: 0.8em;"><i>Last updated on 8/29/2026</i></p>
     </div>
-    <HeaderButton
+    <!-- <HeaderButton
         text="Open Registration Form"
         href={"https://forms.gle/8TCVsQ8pPbWsVwmi8"}
         newTab="true"
         isSmall
         centered
-      />
+      /> -->
   </PanelBox>
 </div>
 <br />
@@ -201,7 +201,7 @@
 </div>
 <br />
 -->
-<Heading text="Registration Timeline" size={2.5} /> -->
+<Heading text="Registration Timeline" size={2.5} /> 
 
 <Timeline width="60%">
   <TimelineElement>
@@ -249,12 +249,10 @@
 <div class="section-wrapper">
   <PanelBox>
     <!-- <FormattedTable data={testData} colStyles={testStyles} /> -->
-     SM3 round information will be released soon. We are excited for our second year!
-    <!-- <p>
-      Students at SMT will participate in <strong>three different events</strong>. All students will the 
-      Treelay Round and Puzzlehunt. After the Treelay Round and before lunch, students will be able to choose another activity. This
-      activity will be chosen during signup and cannot be changed afterwards. 
-    </p>
+     In the morning, all students will participate in the same two rounds: <strong>Hidden Gems</strong> and <strong>Bingo</strong>. 
+    <p><strong>Hidden Gems</strong>: Students play a card game based on both problem solving capability as well as strategy where teams have to use imperfect information in order to win the game by drawing cards, trading cards, and utilizing other mysterious features. </p>
+    <p><strong>Bingo</strong>: Students compete to complete bingos and blackouts in a 7x7 bingo board, and will get points for each bingo and problem they complete. The team with the most amount of points at the end of 60 minutes wins.</p>
+     <!-- 
     <p>
       The <strong>Treelay Round</strong> is a fast paced 40 minute round consisting of a total of 40 questions where students 
       race through the problems utilizing various power ups sprinkled throughout. Teams start out with five questions 
@@ -263,19 +261,17 @@
       They will also receive randomized power ups that will be explained during the competition to use. 
       Each correct answer defaults to 1 point, and  power ups may have the ability to change this.
     </p>
+
+    !-->
+    <p>
+      <strong>Additional Activities!</strong> <br>
+      After lunch, students will paticipate soon-to-be-announced activities or SM3 Puzzlehunt. 
+    </p> 
     <p>
       <strong>Puzzlehunt</strong> will be a series of puzzles related to SM3's theme. Teams will race outdoors to solve a variety of
       unique puzzles across Stanford's campus. If you've never done a puzzle hunt before, check out <a href="https://yukihunt.club">yukihunt.club </a>
       for a beginner-friendly introduction! SMT's guide to common puzzlehunting ciphers is attached 
       <a href="https://docs.google.com/document/d/1DAc4izjhWIMqdf5GQ4g5XsinhTxAu5eCiwXJ1dq33Ww/edit?usp=sharing">here</a>.
-    </p>
-
-    <p>
-      <strong>Additional Activities!</strong> <br>
-      After the Treelay Round ends and before lunch, students will paticipate soon-to-be-announced activities.
-    </p> -->
-    <p>
-      
     </p>
   </PanelBox>
 </div>
