@@ -64,6 +64,7 @@
         "Guts",
         "Integration Bee",
         "Integration Bee Qualification",
+        "Power",
         "Team",
       ],
       SM3tests2025: [
