@@ -43,7 +43,7 @@
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>11/7<br><i style='font-size: 80%'>Tournament Day</i>",
       '11:30 AM',
-      'Hiddem Gems',
+      'Hidden Gems',
       'Hidden Gems',
       'Hidden Gems',
       'Campus Tours',
