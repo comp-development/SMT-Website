@@ -43,7 +43,7 @@
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>11/7<br><i style='font-size: 80%'>Tournament Day</i>",
       '11:30 AM',
-      'Hiddem Gems',
+      'Hidden Gems',
       'Hidden Gems',
       'Hidden Gems',
       'Campus Tours',
@@ -178,13 +178,13 @@
       </p>
       <p style="font-size: 0.8em;"><i>Last updated on 8/29/2026</i></p>
     </div>
-    <!-- <HeaderButton
+    <HeaderButton
         text="Open Registration Form"
-        href={"https://forms.gle/8TCVsQ8pPbWsVwmi8"}
+        href={"https://forms.gle/qgzo3i2H9trWgrxHA"}
         newTab="true"
         isSmall
         centered
-      /> -->
+      />
   </PanelBox>
 </div>
 <br />
