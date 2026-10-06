@@ -21,8 +21,8 @@
         "pic2path": "about-us-images/silly/Anish_Anne.png",
         "leadstatus": "non-lead",
         "positions": {
-            "t": "MEMBERS",
-            "org": "MEMBERS"
+            "t": "DIRECTOR",
+            "org": "LEADERSHIP"
         }
     },
     {
@@ -47,9 +47,9 @@
         "pic2path": "about-us-images/silly/Nancy_Bao.jpg",
         "leadstatus": "current-lead",
         "positions": {
-            "td": "DIRECTOR",
-            "t":"DIRECTOR",
-            "org": "LEADERSHIP"
+            "td": "MEMBERS",
+            "t":"MEMBERS",
+            "org": "LEADERSHIP_EMERITUS"
         }
     },
     {
@@ -99,7 +99,7 @@
         "pic2path": "about-us-images/silly/Elana_Chen.png",
         "leadstatus": "non-lead",
         "positions": {
-            "t": "MEMBERS",
+            "td": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -125,6 +125,7 @@
         "pic2path": "about-us-images/silly/Nacho_Cho.jpg",
         "leadstatus": "non-lead",
         "positions": {
+            "td":"MEMBERS",
             "pw": "MEMBERS",
             "org": "MEMBERS"
         }
@@ -154,6 +155,19 @@
             "org": "MEMBERS"
         }
     },
+    {
+      "displayname": "Quinn Cook",
+      "pic1path": "SMT_red.png",
+      "bio": "",
+      "first": "Quinn",
+      "last": "Cook",
+      "pic2path": "SMT_red.png",
+      "leadstatus": "non-lead",
+      "positions": {
+          "td": "MEMBERS",
+          "org": "MEMBERS"
+      }
+  },
     {
         "displayname": "Katarina Costa",
         "pic1path": "about-us-images/serious/Katarina_Costa.jpg",
@@ -206,19 +220,6 @@
         }
     },
     {
-        "displayname": "Emma Gao",
-        "pic1path": "about-us-images/serious/Emma_Gao.jpg",
-        "bio": "Emma is a freshman studying math and computer science. Outside of SMT, she enjoys playing tennis, going on hikes, and watching historical TV shows.",
-        "first": "Emma",
-        "last": "Gao",
-        "pic2path": "about-us-images/silly/Emma_Gao.jpg",
-        "leadstatus": "non-lead",
-        "positions": {
-            "t": "MEMBERS",
-            "org": "MEMBERS"
-        }
-    },
-    {
         "displayname": "Eric Gao",
         "pic1path": "about-us-images/serious/Eric_Gao.jpg",
         "bio": "Eric is a senior studying math and economics and coterming in management science & engineering. Other than writing entire power rounds over winter break, Eric enjoys chess, climbing, and anime.",
@@ -228,19 +229,6 @@
         "leadstatus": "past-lead",
         "positions": {
             "le": "LEADERSHIP_EMERITUS"
-        }
-    },
-    {
-        "displayname": "Kendall Gee",
-        "pic1path": "about-us-images/serious/Kendall_Gee.jpg",
-        "bio": "Kendall is a sophomore studying computer science and international relations. In her free time, she enjoys ranking new food spots on Beli, planning vacation itineraries, and solving escape rooms.",
-        "first": "Kendall",
-        "last": "Gee",
-        "pic2path": "about-us-images/silly/Kendall_Gee.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "td": "MEMBERS",
-            "org": "MEMBERS"
         }
     },
     {
@@ -266,19 +254,6 @@
         "leadstatus": "past-lead",
         "positions": {
             "le": "LEADERSHIP_EMERITUS"
-        }
-    },
-    {
-        "displayname": "Henri Greamo",
-        "pic1path": "about-us-images/serious/Henri_Greamo.jpg",
-        "bio": "Henri is a sophomore studying math. When he's not writing problems for SMT, he likes to dance, play the drums, and spend way too much time playing video games.",
-        "first": "Henri",
-        "last": "Greamo",
-        "pic2path": "about-us-images/silly/Henri_Greamo.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "pw": "MEMBERS",
-            "org": "MEMBERS"
         }
     },
     {
@@ -316,19 +291,6 @@
         "leadstatus": "past-lead",
         "positions": {
             "le": "LEADERSHIP_EMERITUS"
-        }
-    },
-    {
-        "displayname": "Leo Ji",
-        "pic1path": "about-us-images/serious/Leo_Ji.jpg",
-        "bio": "Leo is a freshman studying math and computer science. He enjoys board games, hiking, watching soccer, and playing guitar in his free time.",
-        "first": "Changxiu",
-        "last": "Ji",
-        "pic2path": "about-us-images/silly/Leo_Ji.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "t": "MEMBERS",
-            "org": "MEMBERS"
         }
     },
     {
@@ -406,7 +368,7 @@
         "pic2path": "about-us-images/silly/Jack_Li.jpg",
         "leadstatus": "non-lead",
         "positions": {
-            "t": "MEMBERS",
+            "pw": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -419,7 +381,7 @@
         "pic2path": "about-us-images/silly/Sophia_Li.png",
         "leadstatus": "non-lead",
         "positions": {
-            "t": "MEMBERS",
+            "pw": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -434,19 +396,6 @@
         "positions": {
             "pw": "DIRECTOR",
             "org": "LEADERSHIP"
-        }
-    },
-    {
-        "displayname": "Kyleen Liao",
-        "pic1path": "about-us-images/serious/Kyleen_Liao.jpg",
-        "bio": "Kyleen is a sophomore studying computer science. Outside of SMT tech, she enjoys drinking tea, listening to music, and hiking.",
-        "first": "Kyleen",
-        "last": "Liao",
-        "pic2path": "about-us-images/silly/Kyleen_Liao.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "t": "MEMBERS",
-            "org": "MEMBERS"
         }
     },
     {
@@ -566,6 +515,19 @@
         }
     },
     {
+      "displayname": "Agniv Sarkar",
+      "pic1path": "SMT_red.png",
+      "bio": "",
+      "first": "Agniv",
+      "last": "Sarkar",
+      "pic2path": "SMT_red.png",
+      "leadstatus": "non-lead",
+      "positions": {
+          "pw": "MEMBERS",
+          "org": "MEMBERS"
+      }
+  },
+    {
         "displayname": "Jack Shi",
         "pic1path": "about-us-images/serious/Jack_Shi.jpg",
         "bio": "Jack is a frosh studying computer science and mathematics. When he's not cooking up code for SMT tech, he enjoys hiking, drinking boba, and forgetting to do his psets.",
@@ -574,20 +536,8 @@
         "pic2path": "about-us-images/silly/Jack_Shi.png",
         "leadstatus": "non-lead",
         "positions": {
+            "pw": "MEMBERS",
             "t": "MEMBERS",
-            "org": "MEMBERS"
-        }
-    },
-    {
-        "displayname": "Jessica Su",
-        "pic1path": "about-us-images/serious/Jessica_Su.jpg",
-        "bio": "Jessica is a sophomore studying cs and east asian studies. When she's outside of SMT, she's probably staying up late watching anime, drawing fanarts, playing some random games, or on here way to some weird places.",
-        "first": "Wen",
-        "last": "Su",
-        "pic2path": "about-us-images/silly/Jessica_Su.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "td": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -665,7 +615,7 @@
         "pic2path": "about-us-images/silly/Olivia_Xu.jpg",
         "leadstatus": "non-lead",
         "positions": {
-            "t": "MEMBERS",
+            "td": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -723,19 +673,6 @@
         }
     },
     {
-        "displayname": "Meiting Yang",
-        "pic1path": "about-us-images/serious/Meiting_Yang.jpg",
-        "bio": "Meiting is a frosh studying math and computer science. Outside of SMT, she likes to travel, play board games, and catch up on much-needed sleep.",
-        "first": "Meiting",
-        "last": "Yang",
-        "pic2path": "about-us-images/silly/Meiting_Yang.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "t": "MEMBERS",
-            "org": "MEMBERS"
-        }
-    },
-    {
         "displayname": "Raina Yang",
         "pic1path": "about-us-images/serious/Raina_Yang.jpg",
         "bio": "Raina is a sophomore studying EE & TAPS. If you don't see her sorting out SMT logistics she is probably either trying and failing to run DMX cables through an ETC Source 4 on the third electric of Memaud or carving wooden fish with the new CNC router in the TAPS lower shop.",
@@ -744,21 +681,8 @@
         "pic2path": "about-us-images/silly/Raina_Yang.jpg",
         "leadstatus": "current-lead",
         "positions": {
-            "td": "DIRECTOR",
-            "org": "LEADERSHIP"
-        }
-    },
-    {
-        "displayname": "Sabrina Yen-Ko",
-        "pic1path": "about-us-images/serious/Sabrina_Yen-Ko.jpg",
-        "bio": "Sabrina is a sophomore studying computer science. Outside of SMT, she loves playing board games, exploring the Stanford makerspaces, going to concerts, and finding new places to rank on Beli 😋.",
-        "first": "Sabrina",
-        "last": "Yen-Ko",
-        "pic2path": "about-us-images/silly/Sabrina_Yen-Ko.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "t": "MEMBERS",
-            "org": "MEMBERS"
+            "td": "MEMBERS",
+            "org": "LEADERSHIP_EMERITUS"
         }
     },
     {
@@ -773,6 +697,19 @@
             "le": "LEADERSHIP_EMERITUS"
         }
     },
+    {
+      "displayname": "Angela Zhang",
+      "pic1path": "SMT_red.png",
+      "bio": "",
+      "first": "Angela",
+      "last": "Zhang",
+      "pic2path": "SMT_red.png",
+      "leadstatus": "non-lead",
+      "positions": {
+          "pw": "MEMBERS",
+          "org": "MEMBERS"
+      }
+  },
     {
         "displayname": "Ethan Zhang",
         "pic1path": "about-us-images/serious/Ethan_Zhang.jpg",
