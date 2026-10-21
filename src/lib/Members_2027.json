@@ -8,7 +8,7 @@
         "pic2path": "about-us-images/silly/Ishani_Agarwal.png",
         "leadstatus": "non-lead",
         "positions": {
-            "pw": "MEMBERS",
+            "td": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -420,7 +420,7 @@
         "pic2path": "about-us-images/silly/Bhushan_Mohanraj.png",
         "leadstatus": "non-lead",
         "positions": {
-            "pw": "MEMBERS",
+            "td": "MEMBERS",
             "org": "MEMBERS"
         }
     },
@@ -460,8 +460,7 @@
         "pic2path": "about-us-images/silly/Nish_Paruchuri.png",
         "leadstatus": "non-lead",
         "positions": {
-            "t": "MEMBERS",
-            "org": "MEMBERS"
+            "le": "LEADERSHIP_EMERITUS"
         }
     },
     {
@@ -510,8 +509,8 @@
         "pic2path": "about-us-images/silly/Sophia_Rong.png",
         "leadstatus": "non-lead",
         "positions": {
-            "td": "MEMBERS",
-            "org": "MEMBERS"
+            "td": "DIRECTOR",
+            "org": "LEADERSHIP"
         }
     },
     {
@@ -590,6 +589,7 @@
         "leadstatus": "current-lead",
         "positions": {
             "td": "DIRECTOR",
+            "t": "DIRECTOR",
             "org": "LEADERSHIP"
         }
     },
@@ -604,19 +604,6 @@
         "positions": {
             "pw": "MEMBERS",
             "org": "LEADERSHIP_EMERITUS"
-        }
-    },
-    {
-        "displayname": "Olivia Xu",
-        "pic1path": "about-us-images/serious/Olivia_Xu.jpg",
-        "bio": "Olivia is a sophomore studying math. She loves going on long walks, trying new sports, and snacking on fruit.",
-        "first": "Olivia",
-        "last": "Xu",
-        "pic2path": "about-us-images/silly/Olivia_Xu.jpg",
-        "leadstatus": "non-lead",
-        "positions": {
-            "td": "MEMBERS",
-            "org": "MEMBERS"
         }
     },
     {
@@ -746,19 +733,6 @@
         "positions": {
             "td": "DIRECTOR",
             "org": "LEADERSHIP"
-        }
-    },
-    {
-        "displayname": "Lily Zou",
-        "pic1path": "about-us-images/serious/Lily_Zou.jpg",
-        "bio": "Lily is a freshman considering math among a number of fields. In her free time, she enjoys hiking, dancing ballet and ballroom, playing the violin, writing, reading, and despairing about how long the to-read list is while gleefully adding to it.",
-        "first": "Lily",
-        "last": "Zou",
-        "pic2path": "about-us-images/silly/Lily_Zou.png",
-        "leadstatus": "non-lead",
-        "positions": {
-            "pw": "MEMBERS",
-            "org": "MEMBERS"
         }
     }
 ]
