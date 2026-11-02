@@ -580,6 +580,19 @@
       }
     },
     {
+      "displayname": "James Wei",
+      "pic1path": "SMT_red.png",
+      "bio": "",
+      "first": "James",
+      "last": "Wei",
+      "pic2path": "SMT_red.png",
+      "leadstatus": "non-lead",
+      "positions": {
+          "pw": "MEMBERS",
+          "org": "MEMBERS"
+      }
+  },
+    {
         "displayname": "Calista Woo",
         "pic1path": "about-us-images/serious/Calista_Woo.jpg",
         "bio": "Calista is a freshman studying computer science. Outside of SMT, she's usually trying to cut down on caffeine, napping on couches, and thinking about that clownfish stuffed animal she really should have bought when she was in Japan.",
