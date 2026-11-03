@@ -38,7 +38,7 @@
       'Bingo Round',
       'Bingo Round',
       'Bingo Round',
-      'Scoreboard Viewing / Student Panel',
+      'Scoreboard Viewing',
     ], 
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>11/7<br><i style='font-size: 80%'>Tournament Day</i>",
