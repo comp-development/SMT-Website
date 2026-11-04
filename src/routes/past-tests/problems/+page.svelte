@@ -38,9 +38,10 @@
         <ol>
           <li>
             <strong>Credit each problem individually.</strong> Attribute every problem you
-            use to its specific source, for example <i>"SMT 2024 Algebra #7"</i> or
-            <i>"Stanford Math Tournament 2022, Team Round, Problem 3."</i> A single blanket
-            acknowledgment for an entire set is not enough.
+            use to its specific source, using our full name, for example
+            <i>"Stanford Math Tournament 2024, Algebra Round, Problem 7."</i> Abbreviating
+            to "SMT" or giving a single blanket acknowledgment for an entire set is not
+            enough.
           </li>
           <li>
             <strong>Keep them free.</strong> You may only share our problems in materials
