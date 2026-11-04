@@ -25,38 +25,6 @@
 <br /><br />
 <div style="min-height: 100vh">
   <Heading text="Past Tournaments" size={4} textColor="var(--heading-color)" />
-  <div class="usage-wrapper">
-    <PanelBox>
-      <div class="usage">
-        <h3>Using Our Problems</h3>
-        <p>
-          Every problem and solution in this archive is free to use. Teachers, coaches,
-          students, and contest organizers are welcome to reproduce, adapt, and share them
-          for practice, lessons, mock contests, problem collections, and anything else that
-          helps people learn math. We only ask two things:
-        </p>
-        <ol>
-          <li>
-            <strong>Credit each problem individually.</strong> Attribute every problem you
-            use to its specific source, using our full name, for example
-            <i>"Stanford Math Tournament 2024, Algebra Round, Problem 7."</i> Abbreviating
-            to "SMT" or giving a single blanket acknowledgment for an entire set is not
-            enough.
-          </li>
-          <li>
-            <strong>Keep them free.</strong> You may only share our problems in materials
-            that are completely free to access. Do not place them behind a paywall,
-            registration fee, or paid course, and do not sell any collection that contains
-            them.
-          </li>
-        </ol>
-        <p>
-          If you would like to use our problems in a way not covered above, please reach out
-          to <Link url="mailto:info@stanfordmathtournament.org" text="info@stanfordmathtournament.org" />.
-        </p>
-      </div>
-    </PanelBox>
-  </div>
   <Heading text="SMT" size={2} textColor="var(--heading-color)" />
   <Heading text="SMT is our annual tournament for high school students." size={1} textColor="var(--heading-color)" />
   <div class="flex" style="max-width: 100vw;">
@@ -111,12 +79,44 @@
       </div>
     </PanelBox>
   </div>
+  <div class="usage-wrapper">
+    <PanelBox>
+      <div class="usage">
+        <h3>Using Our Problems</h3>
+        <p>
+          Every problem and solution in this archive is free to use. Teachers, coaches,
+          students, and contest organizers are welcome to reproduce, adapt, and share them
+          for practice, lessons, mock contests, problem collections, and anything else that
+          helps people learn math. We only ask two things:
+        </p>
+        <ol>
+          <li>
+            <strong>Credit each problem individually.</strong> Attribute every problem you
+            use to its specific source, using our full name, for example
+            <i>"Stanford Math Tournament 2024, Algebra Round, Problem 7."</i> Abbreviating
+            to "SMT" or giving a single blanket acknowledgment for an entire set is not
+            enough.
+          </li>
+          <li>
+            <strong>Keep them free.</strong> You may only share our problems in materials
+            that are completely free to access. Do not place them behind a paywall,
+            registration fee, or paid course, and do not sell any collection that contains
+            them.
+          </li>
+        </ol>
+        <p>
+          If you would like to use our problems in a way not covered above, please reach out
+          to <Link url="mailto:info@stanfordmathtournament.org" text="info@stanfordmathtournament.org" />.
+        </p>
+      </div>
+    </PanelBox>
+  </div>
 </div>
 
 <style>
   .usage-wrapper {
     max-width: 800px;
-    margin: 10px auto 30px auto;
+    margin: 40px auto 20px auto;
     padding: 0 10px;
   }
   .usage h3 {
