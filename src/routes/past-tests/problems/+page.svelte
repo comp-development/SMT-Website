@@ -85,9 +85,9 @@
         <h3>Using Our Problems</h3>
         <p>
           Every problem and solution in this archive is free to use. Teachers, coaches,
-          students, and anyone else are welcome to reproduce, adapt, and share them
-          for practice, lessons, mock contests, problem collections, and anything else that
-          helps people learn math. We only ask two things:
+          students, and anyone else are welcome to reproduce and share them for
+          practice, lessons, mock contests, problem collections, and anything else that
+          helps people learn math. We only ask three things:
         </p>
         <ol>
           <li>
@@ -96,6 +96,12 @@
             <i>"Stanford Math Tournament 2024, Algebra Round, Problem 7."</i> Abbreviating
             to "SMT" or giving a single blanket acknowledgment for an entire set is not
             enough.
+          </li>
+          <li>
+            <strong>Do not modify the problem text.</strong> Reproduce each problem exactly
+            as it appears in the original test. If you need a version with different
+            wording, numbers, or conditions, please present it as your own problem inspired
+            by ours rather than as a Stanford Math Tournament problem.
           </li>
           <li>
             <strong>Keep them free.</strong> You may only share our problems in materials
