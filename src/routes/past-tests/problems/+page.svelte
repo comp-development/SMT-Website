@@ -85,7 +85,7 @@
         <h3>Using Our Problems</h3>
         <p>
           Every problem and solution in this archive is free to use. Teachers, coaches,
-          students, and contest organizers are welcome to reproduce, adapt, and share them
+          students, and anyone else are welcome to reproduce, adapt, and share them
           for practice, lessons, mock contests, problem collections, and anything else that
           helps people learn math. We only ask two things:
         </p>
