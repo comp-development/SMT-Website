@@ -93,9 +93,7 @@
           <li>
             <strong>Credit each problem individually.</strong> Attribute every problem you
             use to its specific source, using our full name, for example
-            <i>"Stanford Math Tournament 2024, Algebra Round, Problem 7."</i> Abbreviating
-            to "SMT" or giving a single blanket acknowledgment for an entire set is not
-            enough.
+            <i>"Stanford Math Tournament 2024, Algebra Round, Problem 7."</i>
           </li>
           <li>
             <strong>Do not modify the problem text.</strong> Reproduce each problem exactly
