@@ -85,21 +85,16 @@
         <h3>Using Our Problems</h3>
         <p>
           Every problem and solution in this archive is free to use. Teachers, coaches,
-          students, and anyone else are welcome to reproduce and share them for
+          students, and anyone else are welcome to reproduce, adapt, and share them
+          for
           practice, lessons, mock contests, problem collections, and anything else that
-          helps people learn math. We only ask three things:
+          helps people learn math. We only ask two things:
         </p>
         <ol>
           <li>
             <strong>Credit each problem individually.</strong> Attribute every problem you
             use to its specific source, using our full name, for example
             <i>"Stanford Math Tournament 2024, Algebra Round, Problem 7."</i>
-          </li>
-          <li>
-            <strong>Do not modify the problem text.</strong> Reproduce each problem exactly
-            as it appears in the original test. If you need a version with different
-            wording, numbers, or conditions, please present it as your own problem inspired
-            by ours rather than as a Stanford Math Tournament problem.
           </li>
           <li>
             <strong>Keep them free.</strong> You may only share our problems in materials
