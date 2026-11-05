@@ -38,7 +38,7 @@
       'Bingo Round',
       'Bingo Round',
       'Bingo Round',
-      'Scoreboard Viewing',
+      'Tours / Unstructured Time',
     ], 
     [
       "<font style='font-size: 150%'>Saturday Tournament</font><br>11/7<br><i style='font-size: 80%'>Tournament Day</i>",
@@ -46,7 +46,7 @@
       'Hidden Gems',
       'Hidden Gems',
       'Hidden Gems',
-      'Campus Tours',
+      'Scoreboard Viewing / Unstructured Time',
     ],
   
     [
@@ -249,8 +249,8 @@
 <div class="section-wrapper">
   <PanelBox>
     <!-- <FormattedTable data={testData} colStyles={testStyles} /> -->
-     In the morning, all students will participate in the same two rounds: <strong>Hidden Gem</strong> and <strong>Bingo</strong>. 
-    <p><strong>Hidden Gem</strong>: Students play a strategic problem-solving game in which teams aim to maximize their total score by solving problems and making strategic decisions. Each question's numerical answer determines its point value. Success requires not only problem-solving ability but also strategic judgment. </p>
+     In the morning, all students will participate in the same two rounds: <strong>Hidden Gems</strong> and <strong>Bingo</strong>. 
+    <p><strong>Hidden Gems</strong>: Students play a strategic problem-solving game in which teams aim to maximize their total score by solving problems and making strategic decisions. Each question's numerical answer determines its point value. Success requires not only problem-solving ability but also strategic judgment. </p>
     <p><strong>Bingo</strong>: Students compete to complete bingos and blackouts in a 7x7 bingo board, and will get points for each bingo and problem they complete. The team with the most amount of points at the end of 60 minutes wins.</p>
      <!-- 
     <p>
