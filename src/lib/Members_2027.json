@@ -699,11 +699,11 @@
     },
     {
       "displayname": "Angela Zhang",
-      "pic1path": "SMT_red.png",
-      "bio": "",
+      "pic1path": "about-us-images/serious/Angela_Zhang.jpg",
+      "bio": "Angela is a freshman interested in math, physics, and engineering. Outside of SMT, she enjoys napping, yapping, hiking with friends, crocheting, and consuming and/or making fun drinks.",
       "first": "Angela",
       "last": "Zhang",
-      "pic2path": "SMT_red.png",
+      "pic2path": "about-us-images/silly/Angela_Zhang.jpg",
       "leadstatus": "non-lead",
       "positions": {
           "pw": "MEMBERS",
